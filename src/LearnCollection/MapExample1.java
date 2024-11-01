@@ -15,6 +15,8 @@ public class MapExample1 {
 		System.out.println(hashmap);
 		hashmap.put(null, null);
 		System.out.println(hashmap);
+		
+		System.out.println(hashmap.get(107));
 	}
 
 }
