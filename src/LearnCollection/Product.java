@@ -29,4 +29,9 @@ public class Product {
 	{
 		return price;
 	}
+	
+	public void setPrice(int Price)
+	{
+		this.price=price;
+	}
 }
