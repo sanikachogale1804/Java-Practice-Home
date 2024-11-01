@@ -17,6 +17,7 @@ public class MapExample1 {
 		System.out.println(hashmap);
 		
 		System.out.println(hashmap.get(107));
+		System.out.println(hashmap.getOrDefault(106, "hello"));
 	}
 
 }
