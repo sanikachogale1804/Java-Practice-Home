@@ -15,4 +15,9 @@ public class Product {
 	{
 		return name;
 	}
+	
+	public int getprice()
+	{
+		return price;
+	}
 }
