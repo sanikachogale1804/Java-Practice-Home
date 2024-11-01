@@ -20,6 +20,7 @@ public class MapExample1 {
 		System.out.println(hashmap.getOrDefault(106, "hello"));
 		
 		System.out.println(hashmap.remove(103));
+		System.out.println(hashmap);
 	}
 
 }
