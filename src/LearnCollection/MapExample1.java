@@ -10,7 +10,9 @@ public class MapExample1 {
 		hashmap.put(101, "sanika");
 		hashmap.put(102, "sneha");
 		hashmap.put(103, "akshata");
-		
+		System.out.println(hashmap);
+		hashmap.put(null, null);
+		System.out.println(hashmap);
 	}
 
 }
