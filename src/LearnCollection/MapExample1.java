@@ -1,6 +1,7 @@
 package LearnCollection;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class MapExample1 {
 	
@@ -24,6 +25,8 @@ public class MapExample1 {
 		System.out.println("======================================");
 		System.out.println(hashmap.keySet());
 		System.out.println(hashmap.values());
+		
+		Set<Integer> set=hashmap.keySet();
 	}
 
 }
