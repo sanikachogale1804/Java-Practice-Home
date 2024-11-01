@@ -31,6 +31,7 @@ public class MapExample1 {
 		{
 			 System.out.println(k+ hashmap.get(k));
 		}
+		System.out.println(hashmap.containsKey(102));
 	}
 
 }
