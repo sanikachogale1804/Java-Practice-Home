@@ -26,7 +26,11 @@ public class MapExample1 {
 		System.out.println(hashmap.keySet());
 		System.out.println(hashmap.values());
 		
-		Set<Integer> set=hashmap.keySet();
+		Set<Integer> keys=hashmap.keySet();
+		for(Integer k:keys)
+		{
+			 System.out.println(k+ hashmap.get(k));
+		}
 	}
 
 }
