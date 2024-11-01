@@ -23,6 +23,7 @@ public class MapExample1 {
 		System.out.println(hashmap);
 		System.out.println("======================================");
 		System.out.println(hashmap.keySet());
+		System.out.println(hashmap.values());
 	}
 
 }
