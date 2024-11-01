@@ -15,6 +15,9 @@ public class QueueExample1 {
 		System.out.println("==================================");
 		System.out.println(numbers.poll());
 		System.out.println(numbers);
+		
+		System.out.println(numbers.poll());
+		System.out.println(numbers);
 	}
 	
 }
