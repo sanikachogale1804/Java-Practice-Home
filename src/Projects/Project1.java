@@ -40,7 +40,7 @@ public class Project1 {
 			{
 				System.out.println("Invalid entry");
 			}
-			
+			break;
 		case 2:
 			System.out.println("a for a-z  and b for z-a");
 			char ch2=sc.next().charAt(0);
