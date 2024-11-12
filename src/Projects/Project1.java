@@ -36,6 +36,10 @@ public class Project1 {
 				TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p2.getId()-p1.getId());
 				System.out.println(products);
 			}
+			else
+			{
+				System.out.println("Invalid entry");
+			}
 		}
 			
 	}
