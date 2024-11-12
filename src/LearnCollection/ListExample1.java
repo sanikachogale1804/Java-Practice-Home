@@ -13,6 +13,15 @@ public class ListExample1 {
 		List.add(45);
 		List.add(57);
 		System.out.println(List);
+		
+		System.out.println(List.size());
+		
+		ArrayList<Integer> List2 = new ArrayList<Integer>();
+		List2.add(10);
+		List2.add(67);
+		List2.add(89);
+		List.addAll(List2);
+		System.out.println(List);
 	}
 	
 }
