@@ -66,6 +66,11 @@ public class Project1 {
 				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getPrice()-p2.getPrice());
 				System.out.println(products);
 			}
+			else if(ch3=='b')
+			{
+				TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p2.getPrice()-p1.getPrice());
+				System.out.println(products);
+			}
 		}
 			
 	}
