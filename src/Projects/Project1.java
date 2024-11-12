@@ -58,6 +58,7 @@ public class Project1 {
 			{
 				System.out.println("Invalid Entry");
 			}
+			break;
 		case 3:
 			System.out.println("a.low to high and b.high to low");
 			char ch3=sc.next().charAt(0);
