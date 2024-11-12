@@ -2,6 +2,11 @@ package LearnCollection;
 
 public class Product {
 	
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", price=" + price + "]";
+	}
+
 	private int id;
 	private String name;
 	private int price;
