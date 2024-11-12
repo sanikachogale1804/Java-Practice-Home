@@ -34,6 +34,8 @@ public class ListExample4 {
 		
 		Comparator<Product> pricecomparator=(p1,p2)->p2.getprice()-p1.getprice();
 		Collections.sort(products,pricecomparator);
+		
+		
 	}
 
 }
