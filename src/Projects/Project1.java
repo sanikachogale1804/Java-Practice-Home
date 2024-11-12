@@ -63,7 +63,8 @@ public class Project1 {
 			char ch3=sc.next().charAt(0);
 			if(ch3=='a')
 			{
-				TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p1.getPrice()-p2.getPrice());
+				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getPrice()-p2.getPrice());
+				System.out.println(products);
 			}
 		}
 			
