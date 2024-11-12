@@ -28,8 +28,8 @@ public class Project1 {
 			char ch = sc.next().charAt(0);
 			if(ch=='a')
 			{
-				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
-				System.out.println(asc);
+				TreeSet<Product> product=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
+				System.out.println(products);
 			}
 		}
 			
