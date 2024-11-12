@@ -22,6 +22,8 @@ public class ListExample1 {
 		List2.add(89);
 		List.addAll(List2);
 		System.out.println(List);
+		
+		
 	}
 	
 }
