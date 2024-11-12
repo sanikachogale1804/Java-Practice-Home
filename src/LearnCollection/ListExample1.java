@@ -1,6 +1,7 @@
 package LearnCollection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ListExample1 {
 
@@ -14,6 +15,14 @@ public class ListExample1 {
 		List.add(57);
 		System.out.println(List);
 		
+		System.out.println("==============================");
+		Collections.sort(List);
+		for(Integer i:List)
+		{
+			System.out.println();
+		}
+		System.out.println(List);
+		System.out.println("==============================");
 		System.out.println(List.size());
 		
 		ArrayList<Integer> List2 = new ArrayList<Integer>();
