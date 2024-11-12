@@ -28,7 +28,12 @@ public class Project1 {
 			char ch = sc.next().charAt(0);
 			if(ch=='a')
 			{
-				TreeSet<Product> product=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
+				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p2.getId()-p1.getId());
+				System.out.println(products);
+			}
+			else if(ch=='b')
+			{
+				TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
 				System.out.println(products);
 			}
 		}
