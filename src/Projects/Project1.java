@@ -19,14 +19,20 @@ public class Project1 {
 		products.add(new Product(105,"Tv",100000));
 		System.out.println(products);
 	   
-		System.out.println("Do you want to sort your Product by id:");
-		char decision=sc.next().charAt(0);
-		if(decision=='y')
+		System.out.println("Enter number");
+		int n = sc.nextInt();
+		switch(n)
 		{
-			Comparator<Product> idComparator=(p1,p2)->p1.getId()-p2.getId();
-			System.out.println(idComparator);
+		case 1:
+			System.out.println("a for asc and b for dec");
+			char ch = sc.next().charAt(0);
+			if(ch=='a')
+			{
+				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
+				System.out.println(asc);
+			}
 		}
-		
+			
 	}
 	
 }
