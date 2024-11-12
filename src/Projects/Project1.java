@@ -10,7 +10,7 @@ public class Project1 {
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
-		TreeSet<Product> products=new TreeSet<Product>((p1,p2)->p2.getId()-p1.getId());
+		TreeSet<Product> products=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
 		
 		products.add(new Product(101,"mobile",90000));
 		products.add(new Product(102,"Laptop",68000));
