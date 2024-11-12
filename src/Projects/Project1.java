@@ -40,6 +40,30 @@ public class Project1 {
 			{
 				System.out.println("Invalid entry");
 			}
+			
+		case 2:
+			System.out.println("a for a-z  and b for z-a");
+			char ch2=sc.next().charAt(0);
+			if(ch2=='a')
+			{
+				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getName().compareTo(p2.getName()));
+				System.out.println(products);
+			}
+			else if(ch2=='b')
+			{
+                TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p2.getName().compareTo(p1.getName()));
+                System.out.println(products);
+			}
+			else
+			{
+				System.out.println("Invalid Entry");
+			}
+		case 3:
+			System.out.println("a.low to high and b.high to low");
+			if()
+			{
+				
+			}
 		}
 			
 	}
