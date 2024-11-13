@@ -16,7 +16,11 @@ public class ListExample8 {
 		System.out.println(list);
 		Iterator<Integer> iterator=list.iterator();
 		System.out.println(iterator.next());
-		System.out.println();
+		System.out.println(iterator.next());
+		while(iterator.hasNext())
+		{
+			
+		}
 	}
 
 }
