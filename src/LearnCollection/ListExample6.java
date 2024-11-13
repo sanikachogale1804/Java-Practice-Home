@@ -11,6 +11,8 @@ public class ListExample6 {
 		list.add(10);
 		list.add(50);
 		list.add(98);
+		
+		System.out.println(list);
 	}
 	
 }
