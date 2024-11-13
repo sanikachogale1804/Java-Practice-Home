@@ -13,6 +13,8 @@ public class ListExample8 {
 		list.add(45);
 		list.add(86);
 		System.out.println(list);
+		System.out.println(list.iterator());
+		
 	}
 
 }
