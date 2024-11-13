@@ -2,6 +2,7 @@ package LearnCollection;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 public class ListExample6 {
 
@@ -25,9 +26,9 @@ public class ListExample6 {
 		{
 			System.out.println(iterator.next());
 		}
-		catch()
+		catch(NoSuchElementException e)
 		{
-			
+			System.out.println("No elements");
 		}
 		
 	}
