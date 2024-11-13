@@ -11,6 +11,7 @@ public class ListExample8 {
 		LinkedList<Integer> list=new LinkedList<Integer>();
 		list.add(90);
 		list.add(45);
+		list.add(86);
 		System.out.println(list);
 	}
 
