@@ -18,7 +18,12 @@ public class ListExample7 {
 		System.out.println("=====================================");
 //		System.out.println(stack.size());
 		System.out.println(stack.peek());
-		
+		System.out.println("=====================================");
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
 	}
 
 }
