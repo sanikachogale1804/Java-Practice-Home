@@ -9,7 +9,9 @@ public class ListExample7 {
 		Stack<Integer> stack=new Stack<Integer>();
 		stack.push(40);
 		stack.push(90);
-		
+		stack.push(56);
+		stack.push(10);
+		System.out.println(stack);
 	}
 
 }
