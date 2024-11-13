@@ -17,6 +17,7 @@ public class ListExample6 {
 		
 		Iterator<Integer> iterator = list.iterator();
 		System.out.println(iterator.next());
+		System.out.println(iterator.next());
 	}
 	
 }
