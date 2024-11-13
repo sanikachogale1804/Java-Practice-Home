@@ -12,6 +12,9 @@ public class ListExample7 {
 		stack.push(56);
 		stack.push(10);
 		System.out.println(stack);
+		System.out.println("=====================================");
+		stack.search(90);
+		
 	}
 
 }
