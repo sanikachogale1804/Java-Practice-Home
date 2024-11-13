@@ -16,7 +16,9 @@ public class ListExample7 {
 		System.out.println("=====================================");
 		System.out.println(stack.search(56));
 		System.out.println("=====================================");
-		System.out.println(stack.size());
+//		System.out.println(stack.size());
+		System.out.println(stack.peek());
+		
 	}
 
 }
