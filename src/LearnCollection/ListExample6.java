@@ -17,20 +17,24 @@ public class ListExample6 {
 		System.out.println(list);
 		
 		Iterator<Integer> iterator = list.iterator();
-		System.out.println(iterator.next());
-		System.out.println(iterator.next());
-		System.out.println(iterator.next());
-		System.out.println(iterator.next());
-		System.out.println(iterator.next());
-		try
+//		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
+//		try
+//		{
+//			System.out.println(iterator.next());
+//		}
+//		catch(NoSuchElementException e)
+//		{
+//			System.out.println("No elements");
+//		}
+//		
+		while(iterator.hasNext())
 		{
 			System.out.println(iterator.next());
 		}
-		catch(NoSuchElementException e)
-		{
-			System.out.println("No elements");
-		}
-		
 	}
 	
 }
