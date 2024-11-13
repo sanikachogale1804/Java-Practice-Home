@@ -10,11 +10,13 @@ public class ListExample7 {
 		stack.push(40);
 		stack.push(90);
 		stack.push(56);
+		stack.push(56);
 		stack.push(10);
 		System.out.println(stack);
 		System.out.println("=====================================");
-		stack.search(90);
-		
+		System.out.println(stack.search(56));
+		System.out.println("=====================================");
+		System.out.println(stack.size());
 	}
 
 }
