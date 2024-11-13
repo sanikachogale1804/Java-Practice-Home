@@ -35,6 +35,8 @@ public class ListExample6 {
 		{
 			System.out.println(iterator.next());
 		}
+		
+		
 	}
 	
 }
