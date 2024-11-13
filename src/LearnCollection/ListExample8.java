@@ -15,11 +15,11 @@ public class ListExample8 {
 		list.add(86);
 		System.out.println(list);
 		Iterator<Integer> iterator=list.iterator();
-		System.out.println(iterator.next());
-		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
 		while(iterator.hasNext())
 		{
-			
+			System.out.println(iterator.next());
 		}
 	}
 
