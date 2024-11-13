@@ -1,5 +1,6 @@
 package LearnCollection;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class ListExample6 {
@@ -13,6 +14,9 @@ public class ListExample6 {
 		list.add(98);
 		
 		System.out.println(list);
+		
+		Iterator<Integer> iterator = list.iterator();
+		System.out.println(iterator.next());
 	}
 	
 }
