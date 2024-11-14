@@ -9,12 +9,14 @@ public class SetExample2 {
 		
 		Scanner sc=new Scanner(System.in);
 		HashSet<String> colors=new HashSet<String>();
-		String color=sc.next();
 		
-		for()
+		
+		for(int i=1;i<=5;i++)
 		{
-			
+			String color=sc.next();
+			colors.add(color);
 		}
+		System.out.println(colors);
 	}
 
 }
