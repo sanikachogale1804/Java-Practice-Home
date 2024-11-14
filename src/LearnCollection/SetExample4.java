@@ -17,8 +17,8 @@ public class SetExample4 {
 		System.out.println(set.higher(56));
 		System.out.println(set.lower(56));
 		System.out.println("=========================================");
-		System.out.println(set.ceiling(22));
-		
+		System.out.println(set.ceiling(58));
+		System.out.println(set.floor(58));
 	}
 
 }
