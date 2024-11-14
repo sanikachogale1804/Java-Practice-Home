@@ -14,6 +14,9 @@ public class SetExample1 {
 		hashset.add(89);
 		hashset.add(900);
 		hashset.add(5);
+		System.out.println(hashset);
+		
+		
 	}
 	
 }
