@@ -18,6 +18,11 @@ public class SetExample3 {
 		Iterator<Integer> iterator=set.iterator();
 		System.out.println(iterator.next());
 		System.out.println(iterator.next());
+		
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
+		}
 	}
 
 }
