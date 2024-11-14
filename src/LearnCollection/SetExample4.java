@@ -15,7 +15,7 @@ public class SetExample4 {
 		set.add(10);
 		System.out.println(set);
 		System.out.println(set.higher(56));
-		
+		System.out.println(set.lower(56));
 	}
 
 }
