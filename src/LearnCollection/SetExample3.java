@@ -16,8 +16,8 @@ public class SetExample3 {
 		System.out.println(set);
 		
 		Iterator<Integer> iterator=set.iterator();
-		System.out.println(iterator.next());
-		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
+//		System.out.println(iterator.next());
 		
 		while(iterator.hasNext())
 		{
