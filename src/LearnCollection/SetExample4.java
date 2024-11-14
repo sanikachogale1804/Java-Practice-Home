@@ -12,8 +12,8 @@ public class SetExample4 {
 		set.add(56);
 		set.add(56);
 		set.add(78);
-		set.add(null);
-		
+		set.add(10);
+		System.out.println(set);
 	}
 
 }
