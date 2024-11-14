@@ -17,6 +17,9 @@ public class SetExample2 {
 			colors.add(color);
 		}
 		System.out.println(colors);
+		
+		colors.clear();
+		System.out.println(colors);
 	}
 
 }
