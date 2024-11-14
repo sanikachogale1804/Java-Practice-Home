@@ -1,5 +1,6 @@
 package LearnCollection;
 
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 public class SetExample3 {
@@ -13,6 +14,9 @@ public class SetExample3 {
 		set.add(45);
 		set.add(90);
 		System.out.println(set);
+		
+		Iterator<Integer> iterator=set.iterator();
+		
 		
 	}
 
