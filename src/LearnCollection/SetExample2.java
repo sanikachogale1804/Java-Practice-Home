@@ -9,7 +9,12 @@ public class SetExample2 {
 		
 		Scanner sc=new Scanner(System.in);
 		HashSet<String> colors=new HashSet<String>();
+		String color=sc.next();
 		
+		for()
+		{
+			
+		}
 	}
 
 }
