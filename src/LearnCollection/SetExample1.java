@@ -23,6 +23,8 @@ public class SetExample1 {
 		
 		HashSet<Integer> set=new HashSet<Integer>(list);
 		System.out.println(set);
+		
+		
 	}
 	
 }
