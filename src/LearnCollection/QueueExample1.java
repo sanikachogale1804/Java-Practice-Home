@@ -19,6 +19,9 @@ public class QueueExample1 {
 		   queue.add(i);
 	   }
 		System.out.println(queue);
+		
+		System.out.println("===============================");
+		
 	}
 	
 }
