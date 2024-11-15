@@ -8,6 +8,7 @@ public class QueueExample2 {
 		PriorityQueue<Product> queue=new PriorityQueue<Product>();
 		
 		queue.add(new Product(101,"mobile",50000));
+		queue.add(new Product(102,"laptop",70000));
 		
 	}
 
