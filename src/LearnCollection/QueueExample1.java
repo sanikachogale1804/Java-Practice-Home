@@ -14,6 +14,10 @@ public class QueueExample1 {
 		
 		System.out.println(queue);
 		
+	   for(int i=1;i<=20;i++)
+	   {
+		   
+	   }
 		
 	}
 	
