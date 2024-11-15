@@ -8,6 +8,7 @@ public class QueueExample1 {
 		PriorityQueue<Integer> queue=new PriorityQueue<Integer>();
 		queue.add(40);
 		queue.add(20);
+		queue.add(10);
 	}
 	
 }
