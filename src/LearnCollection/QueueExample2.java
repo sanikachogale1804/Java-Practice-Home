@@ -9,10 +9,8 @@ public class QueueExample2 {
 		
 		queue.add(new Product(101,"mobile",50000));
 		queue.add(new Product(102,"laptop",70000));
-		
 		System.out.println(queue);
 		System.out.println(queue.peek());
-		
 		
 	}
 
