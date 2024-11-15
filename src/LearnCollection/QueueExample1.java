@@ -16,9 +16,9 @@ public class QueueExample1 {
 		
 	   for(int i=1;i<=20;i++)
 	   {
-		   
+		   queue.add(i);
 	   }
-		
+		System.out.println(queue);
 	}
 	
 }
