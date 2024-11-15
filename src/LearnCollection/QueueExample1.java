@@ -13,6 +13,8 @@ public class QueueExample1 {
 		queue.add(60);
 		
 		System.out.println(queue);
+		
+		
 	}
 	
 }
