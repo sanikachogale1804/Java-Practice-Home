@@ -11,6 +11,8 @@ public class QueueExample1 {
 		queue.add(10);
 		queue.add(2);
 		queue.add(60);
+		
+		System.out.println(queue);
 	}
 	
 }
