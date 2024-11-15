@@ -12,6 +12,8 @@ public class QueueExample2 {
 		
 		System.out.println(queue);
 		System.out.println(queue.peek());
+		
+		
 	}
 
 }
