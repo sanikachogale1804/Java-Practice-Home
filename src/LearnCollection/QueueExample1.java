@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 public class QueueExample1 {
 
 	public static void main(String[] args) {
-		PriorityQueue<Integer> queue=new PriorityQueue<Integer>();
+		PriorityQueue<Integer> queue=new PriorityQueue<Integer>((i1,i2)->i2-i1);
 //		queue.add(40);
 //		queue.add(20);
 //		queue.add(10);
@@ -26,6 +26,8 @@ public class QueueExample1 {
 		
 		System.out.println(queue.poll());
 		System.out.println(queue);
+		
+		System.out.println(queue.poll());
 	}
 	
 }
