@@ -10,7 +10,7 @@ public class QueueExample1 {
 		queue.add(20);
 		queue.add(10);
 		queue.add(2);
-		
+		queue.add(60);
 	}
 	
 }
