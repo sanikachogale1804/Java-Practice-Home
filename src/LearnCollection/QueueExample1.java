@@ -22,7 +22,9 @@ public class QueueExample1 {
 		
 		System.out.println("===============================");
 		System.out.println(queue.poll());
+		System.out.println(queue);
 		
+		System.out.println(queue.poll());
 	}
 	
 }
