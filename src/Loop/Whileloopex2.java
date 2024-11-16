@@ -21,6 +21,11 @@ public class Whileloopex2 {
 		{
 			System.out.println("number is small");
 		}
+		
+		for(int i=20;i>=10;i--)
+		{
+			System.out.println(i);
+		}
 	}
 
 }
