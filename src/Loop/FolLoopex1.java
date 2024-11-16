@@ -4,8 +4,8 @@ public class FolLoopex1 {
 	
 	public static void main(String[] args) {
 		
-		int n=5;
-		int fact=0;
+		int n=6;
+		int fact=1;
 		for(int i=1;i<=n;i++)
 		{
 			fact=fact*i;
