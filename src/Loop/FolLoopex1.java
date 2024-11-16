@@ -1,10 +1,13 @@
 package Loop;
 
+import java.util.Scanner;
+
 public class FolLoopex1 {
 	
 	public static void main(String[] args) {
 		
-		int n=6;
+		Scanner sc=new Scanner(System.in);
+		char n = sc.next().charAt(0);
 		int fact=1;
 		for(int i=1;i<=n;i++)
 		{
