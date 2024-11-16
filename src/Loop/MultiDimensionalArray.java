@@ -18,6 +18,7 @@ public class MultiDimensionalArray {
 			}
 		}
 		
+		System.out.println("=====================================");
 	}
 
 }
