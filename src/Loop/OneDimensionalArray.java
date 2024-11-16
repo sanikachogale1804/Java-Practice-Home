@@ -13,6 +13,9 @@ public class OneDimensionalArray {
 		{
 		    System.out.println(num);
 		}
+		
+		String weekdays[]= {"mon","tue","thur","fir","sat","sun"};
+		System.out.println(weekdays[3]);
 	}
 
 }
