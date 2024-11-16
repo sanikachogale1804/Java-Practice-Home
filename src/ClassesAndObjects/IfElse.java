@@ -14,6 +14,15 @@ public class IfElse {
 			subscribed = true;
 		}
 		System.out.println("Subscribed");
+		
+		if(subscribed==true)
+		{
+			System.out.println("you are subscribed");
+		}
+		else
+		{
+			System.out.println("you are not subscribed");
+		}
 	}
 	
 }
