@@ -9,6 +9,8 @@ public class HierarchicalInheritanceMain {
 		
 		Rectangle r=new Rectangle("red", 10, 5);
 		System.out.println(r.AreaOfRectangle());
-		
+	
+		c.displayCircleInfo();
+		r.displayRectangleInfo();
 	}
 }
