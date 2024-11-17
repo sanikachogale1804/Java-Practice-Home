@@ -2,7 +2,12 @@ package Practice;
 
 class Counter
 {
+	static int count;
 	
+	Counter()
+	{
+		
+	}
 }
 
 public class staticExample1 {
