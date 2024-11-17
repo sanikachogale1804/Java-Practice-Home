@@ -7,21 +7,13 @@ public class Student {
 	
 	void studentDetails()
 	{
-		System.out.println("Studentdetails");
-	}
-	
-	int square(int n)
-	{
-		return n*n;
-	}
-	
-	int cube(int c)
-	{
-		return c*c*c;
+		System.out.println("Student Details");
 	}
 
-	public int areaOfSquare(int l,int b)
+	int subtraction(int a,int b)
 	{
-		return l*b;
+		return a-b;
 	}
+	
+	
 }
