@@ -18,6 +18,11 @@ public class staticExample1 {
 		Counter counter = new Counter();
 		new Counter();
 		new Counter();
+		
+		for(int i=1;i<=100;i++)
+		{
+			
+		}
 	}
 
 }
