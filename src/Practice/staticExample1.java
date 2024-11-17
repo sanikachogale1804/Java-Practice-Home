@@ -6,7 +6,8 @@ class Counter
 	
 	Counter()
 	{
-		
+		count++;
+		System.out.println("Count: "+count);
 	}
 }
 
