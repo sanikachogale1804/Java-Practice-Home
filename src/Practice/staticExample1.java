@@ -15,6 +15,9 @@ public class staticExample1 {
 	
 	public static void main(String[] args) {
 		
+		Counter counter = new Counter();
+		
+		
 	}
 
 }
