@@ -13,4 +13,9 @@ public class Circle extends Shape{
 	{
 		return radius*radius;
 	}
+	
+	public void displayCircleInfo()
+	{
+		System.out.println("Circle"+ radius);
+	}
 }

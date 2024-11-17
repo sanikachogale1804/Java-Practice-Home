@@ -15,5 +15,8 @@ public class Rectangle extends Shape{
 		return length*width;
 	}
 
-	
+	void displayRectangleInfo()
+	{
+		System.out.println("Recatngle of area is:" +AreaOfRectangle());
+	}
 }
