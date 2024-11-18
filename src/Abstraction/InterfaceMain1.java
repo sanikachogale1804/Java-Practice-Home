@@ -7,6 +7,7 @@ public class InterfaceMain1 {
 		Vehicle car=new car();
 		car.start();
 		car.stop();
+		car.displayInfo();
 		
 	}
 
