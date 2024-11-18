@@ -41,7 +41,7 @@ public class AbstractionExample2 {
 				System.out.println("lions can roar");
 			}	
 		};
-		
+		lion.sound();
 	}
 
 }
