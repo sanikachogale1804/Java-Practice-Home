@@ -6,6 +6,13 @@ abstract class Electronics
 	abstract void stop();
 }
 
+class Tv extends Electronics
+{
+	void start()
+	{
+		System.out.println("Tv started:");
+	}
+}
 
 public class AbstractionEx1 {
 	
