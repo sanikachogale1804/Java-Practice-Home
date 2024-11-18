@@ -24,6 +24,8 @@ public class InterfaceMain1 {
 				System.out.println("truck stopped");
 			}
 		};
+		Truck.start();
+		Truck.stop();
 	}
 
 }
