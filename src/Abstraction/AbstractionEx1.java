@@ -26,6 +26,10 @@ class Ac extends Electronics
 		System.out.println("Ac started:");
 	}
 	
+	void stop()
+	{
+		System.out.println("Ac stopeed:");
+	}
 	
 }
 
