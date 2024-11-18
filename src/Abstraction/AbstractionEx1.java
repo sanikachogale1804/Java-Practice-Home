@@ -3,6 +3,7 @@ package Abstraction;
 abstract class Electronics
 {
 	abstract void start();
+	abstract void stop();
 }
 
 
