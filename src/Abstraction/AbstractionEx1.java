@@ -46,7 +46,10 @@ public class AbstractionEx1 {
 			{
 				System.out.println("Washing machine started:");
 			}
-			
+			void stop()
+			{
+				System.out.println("washing machine stopped:");
+			}	
 		};
 	}
 
