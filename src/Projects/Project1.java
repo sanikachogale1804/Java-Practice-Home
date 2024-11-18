@@ -29,13 +29,13 @@ public class Project1 {
 			char ch = sc.next().charAt(0);
 			if(ch=='a')
 			{
-				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
-				System.out.println(products);
+				TreeSet<Product> sortbyIdAsc=new TreeSet<Product>((p1,p2)->p1.getId()-p2.getId());
+				System.out.println(sortbyIdAsc);
 			}
 			else if(ch=='b')
 			{
-				TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p2.getId()-p1.getId());
-				System.out.println(products);
+				TreeSet<Product> sortbyIdDsc=new TreeSet<Product>((p1,p2)->p2.getId()-p1.getId());
+				System.out.println(sortbyIdDsc);
 			}
 			else
 			{
@@ -48,13 +48,13 @@ public class Project1 {
 			char ch2=sc.next().charAt(0);
 			if(ch2=='a')
 			{
-				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getName().compareTo(p2.getName()));
-				System.out.println(products);
+				TreeSet<Product> AtoZ=new TreeSet<Product>((p1,p2)->p1.getName().compareTo(p2.getName()));
+				System.out.println(AtoZ);
 			}
 			else if(ch2=='b')
 			{
-                TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p2.getName().compareTo(p1.getName()));
-                System.out.println(products);
+                TreeSet<Product> ZtoA=new TreeSet<Product>((p1,p2)->p2.getName().compareTo(p1.getName()));
+                System.out.println(ZtoA);
 			}
 			else
 			{
@@ -67,13 +67,13 @@ public class Project1 {
 			char ch3=sc.next().charAt(0);
 			if(ch3=='a')
 			{
-				TreeSet<Product> asc=new TreeSet<Product>((p1,p2)->p1.getPrice()-p2.getPrice());
-				System.out.println(products);
+				TreeSet<Product> LowToHigh=new TreeSet<Product>((p1,p2)->p1.getPrice()-p2.getPrice());
+				System.out.println(LowToHigh);
 			}
 			else if(ch3=='b')
 			{
-				TreeSet<Product> dec=new TreeSet<Product>((p1,p2)->p2.getPrice()-p1.getPrice());
-				System.out.println(products);
+				TreeSet<Product> HighToLow=new TreeSet<Product>((p1,p2)->p2.getPrice()-p1.getPrice());
+				System.out.println(HighToLow);
 			}
 		}
 			
