@@ -30,6 +30,9 @@ public class AbstractionExample2 {
 		Animal cat=new Cat();
 		cat.sound();
 		
+		Cat cat1=new Cat();
+		cat1.sound();
+		
 	}
 
 }
