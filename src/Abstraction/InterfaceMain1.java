@@ -9,6 +9,8 @@ public class InterfaceMain1 {
 		car.stop();
 		car.displayInfo();
 		
+		Vehicle bike=new Bike();
+		bike.start();
 	}
 
 }
