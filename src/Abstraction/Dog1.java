@@ -12,5 +12,4 @@ public class Dog1 implements Animal1,Runnable
 	{
 		System.out.println("Dog can run");
 	}
-	
 }
