@@ -37,7 +37,10 @@ public class AbstractionEx1 {
 	
 	public static void main(String[] args) {
 		
-		
+		new Tv().start();
+		new Tv().stop();
+		new Ac().start();
+		new Ac().stop();
 		
 	}
 
