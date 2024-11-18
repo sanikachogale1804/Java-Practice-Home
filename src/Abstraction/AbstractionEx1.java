@@ -19,9 +19,21 @@ class Tv extends Electronics
 	}
 }
 
+class Ac extends Electronics
+{
+	void start()
+	{
+		System.out.println("Ac started:");
+	}
+	
+	
+}
+
 public class AbstractionEx1 {
 	
 	public static void main(String[] args) {
+		
+		
 		
 	}
 
