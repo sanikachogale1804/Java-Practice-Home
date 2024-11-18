@@ -30,7 +30,6 @@ class Ac extends Electronics
 	{
 		System.out.println("Ac stopeed:");
 	}
-	
 }
 
 public class AbstractionEx1 {
@@ -42,6 +41,13 @@ public class AbstractionEx1 {
 		new Ac().start();
 		new Ac().stop();
 		
+		Electronics Washingmachine = new Electronics() {
+			void start()
+			{
+				System.out.println("Washing machine started:");
+			}
+			
+		};
 	}
 
 }
