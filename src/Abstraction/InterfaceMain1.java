@@ -26,6 +26,8 @@ public class InterfaceMain1 {
 		};
 		Truck.start();
 		Truck.stop();
+		
+		
 	}
 
 }
