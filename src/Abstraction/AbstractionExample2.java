@@ -13,6 +13,13 @@ class Dog extends Animal
 	}
 }
 
+class Cat extends Animal
+{
+	void sound()
+	{
+		System.out.println("meow-meow");
+	}
+}
 public class AbstractionExample2 {
 	
 	public static void main(String[] args) {
