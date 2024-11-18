@@ -12,6 +12,18 @@ public class InterfaceMain1 {
 		Vehicle bike=new Bike();
 		bike.start();
 		bike.stop();
+		
+		//anonymous inner class
+		Vehicle Truck=new Vehicle() {
+			public void start()
+			{
+				System.out.println("truck started");
+			}
+			public void stop()
+			{
+				System.out.println("truck stopped");
+			}
+		};
 	}
 
 }
