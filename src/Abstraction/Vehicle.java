@@ -28,3 +28,16 @@ class car implements Vehicle
 		System.out.println("car stopped");
 	}
 }
+
+class Bike implements Vehicle
+{
+	public void start()
+	{
+		System.out.println("bike started:");
+	}
+	public void stop()
+	{
+		System.out.println("bike stopped:");
+	}
+}
+
