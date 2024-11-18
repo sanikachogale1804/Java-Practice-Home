@@ -33,7 +33,15 @@ public class AbstractionExample2 {
 		Cat cat1=new Cat();
 		cat1.sound();
 		
-		new Dog().sound();;
+		new Dog().sound();
+		
+		Animal lion=new Animal() {
+			void sound()
+			{
+				System.out.println("lions can roar");
+			}	
+		};
+		
 	}
 
 }
