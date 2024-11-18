@@ -51,6 +51,9 @@ public class AbstractionEx1 {
 				System.out.println("washing machine stopped:");
 			}	
 		};
+		
+		Washingmachine.start();
+		Washingmachine.stop();
 	}
 
 }
