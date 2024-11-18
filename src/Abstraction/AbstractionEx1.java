@@ -12,6 +12,11 @@ class Tv extends Electronics
 	{
 		System.out.println("Tv started:");
 	}
+	
+	void stop()
+	{
+		System.out.println("Tv stopped:");
+	}
 }
 
 public class AbstractionEx1 {
