@@ -11,6 +11,7 @@ public class InterfaceMain1 {
 		
 		Vehicle bike=new Bike();
 		bike.start();
+		bike.stop();
 	}
 
 }
