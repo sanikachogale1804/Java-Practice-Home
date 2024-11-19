@@ -15,12 +15,12 @@ public class InterfaceEx3 {
 		
 		List<String> list = Arrays.asList("apple","banana","water-melon","kivi");
 		
-		StringFilter longword=(str)->str.length()<5;
+		StringFilter longword=(str)->str.length()>4;
 		for(String word:list)
 		{
 			if(longword.test(word))
 			{
-				
+				System.out.println(word);
 			}
 		}
 	}
