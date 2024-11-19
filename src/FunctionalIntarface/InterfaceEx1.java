@@ -16,7 +16,7 @@ public class InterfaceEx1 {
 				return n%2;
 			}
 		};
-		s.isEven(4);
+		System.out.println(s.isEven(11));
 	}
 	
 }
