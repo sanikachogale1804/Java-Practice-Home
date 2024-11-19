@@ -17,6 +17,13 @@ public class InterfaceEx2 {
 		
 		NumberFilter isEven=(number)->number%2==0;
 		
+		for(int numbers:list)
+		{
+			if()
+			{
+				
+			}
+		}
 	}
 
 }
