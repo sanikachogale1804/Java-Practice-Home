@@ -17,11 +17,11 @@ public class InterfaceEx2 {
 		
 		NumberFilter isEven=(number)->number%2==0;
 		
-		for(int numbers:list)
+		for(int number:list)
 		{
-			if()
+			if(isEven.test(number))
 			{
-				
+				System.out.println(number);
 			}
 		}
 	}
