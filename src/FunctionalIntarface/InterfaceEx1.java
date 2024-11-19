@@ -6,6 +6,11 @@ interface square
 	int isEven(int n);
 }
 
+@FunctionalInterface
+interface square1
+{
+	boolean isEven(int n);
+}
 public class InterfaceEx1 {
 
 	public static void main(String[] args) {
