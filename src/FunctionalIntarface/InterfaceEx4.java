@@ -15,6 +15,8 @@ public class InterfaceEx4 {
 		
 		List<String> list = Arrays.asList("john","joel","Sanika","janki","mitali","riya");
 		
+		StringPredicate startwithj=(str)->str.startsWith("j");
+		
 	}
 
 }
