@@ -24,7 +24,7 @@ public class InterfaceEx1 {
 		System.out.println(s.isEven(11));
 		
 		square1 s1=(n)->n%2==0;
-		s1.isEven(8);
+		System.out.println(s1.isEven(13));
 	}
 	
 }
