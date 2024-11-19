@@ -1,5 +1,8 @@
 package FunctionalIntarface;
 
+import java.util.Arrays;
+import java.util.List;
+
 @FunctionalInterface
 interface NumberFilter
 {
@@ -9,6 +12,8 @@ interface NumberFilter
 public class InterfaceEx2 {
 	
 	public static void main(String[] args) {
+		
+		List<Integer> list = Arrays.asList(56,89,24,90,45,37);
 		
 	}
 
