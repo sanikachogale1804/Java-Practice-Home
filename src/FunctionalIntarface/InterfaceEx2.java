@@ -15,6 +15,8 @@ public class InterfaceEx2 {
 		
 		List<Integer> list = Arrays.asList(56,89,24,90,45,37);
 		
+		NumberFilter isEven=(number)->number%2==0;
+		
 	}
 
 }
