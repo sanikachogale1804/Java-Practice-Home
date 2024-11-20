@@ -19,8 +19,8 @@ public class Example2 {
 			rev=rev*10+rem;
 			num=num/10;
 		}
-		System.out.println("Given digits:"+num);
-		
+		System.out.println("Given digits:"+a);
+		System.out.println("reverse digits:"+rev);
 	}
 
 }
