@@ -12,6 +12,11 @@ public class Example2 {
 		int a=num;
 		int rev=0;
 		int rem=0;
+		
+		while(num>0)
+		{
+			
+		}
 	}
 
 }
