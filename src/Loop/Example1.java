@@ -16,7 +16,7 @@ public class Example1 {
 		{
 			result*=base;
 		}
-		
+		System.out.println("result is" +result);
 	}
 
 }
