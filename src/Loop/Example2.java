@@ -9,6 +9,7 @@ public class Example2 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the digits:");
 		int num = sc.nextInt();
+		int rev=0;
 	}
 
 }
