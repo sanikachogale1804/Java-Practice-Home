@@ -12,7 +12,7 @@ public class Example1 {
 		System.out.println("Enter the power value");
 		int power = sc.nextInt();
 		int result=1;
-		for()
+		for(int i=1;i<=power;i++)
 		{
 			
 		}
