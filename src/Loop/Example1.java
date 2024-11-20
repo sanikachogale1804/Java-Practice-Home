@@ -10,6 +10,7 @@ public class Example1 {
 		System.out.println("enter the base value");
 		int base = sc.nextInt();
 		System.out.println("Enter the power value");
+		int power = sc.nextInt();
 	}
 
 }
