@@ -12,6 +12,8 @@ public class StringExample3 {
 		
 		System.out.println("==============================");
 		System.out.println("sanikaa".indexOf('n'));
+		System.out.println("banana".indexOf('a'));
+		
 	}
 
 }
