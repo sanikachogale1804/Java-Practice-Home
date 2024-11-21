@@ -19,7 +19,11 @@ public class StringExample2 {
 		System.out.println("============================");
 		
 		System.out.println(a.equalsIgnoreCase(c));
+
+		System.out.println("============================");
 		
+		String e="A";
+		String f="a";
 	}
 
 }
