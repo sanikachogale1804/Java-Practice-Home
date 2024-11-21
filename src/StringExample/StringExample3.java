@@ -17,12 +17,12 @@ public class StringExample3 {
 		System.out.println("laptop".indexOf('p',3));
 		System.out.println("==============================");
 		System.out.println("sanikachogale".indexOf('a',6));
-		
+		System.out.println("==================================");
 		String s2="bottle";
 		char arr[]=s2.toCharArray();
-		for()
+		for(char ch:arr)
 		{
-			
+			System.out.println(ch);
 		}
 	}
 
