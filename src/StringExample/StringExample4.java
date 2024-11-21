@@ -21,8 +21,7 @@ public class StringExample4 {
 			if(i>0)
 			{
 				reversedstr.append(" ");
-			}
-			
+			}	
 		}	
 	System.out.print(reversedstr.toString());	
 	
