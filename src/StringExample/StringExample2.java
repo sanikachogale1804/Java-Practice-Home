@@ -26,6 +26,9 @@ public class StringExample2 {
 		String f="a";
 		
 		System.out.println(e.compareTo(f));
+		
+		System.out.println("============================");
+		
 	}
 
 }
