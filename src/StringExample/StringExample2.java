@@ -15,7 +15,10 @@ public class StringExample2 {
 		System.out.println(a.equals(b));
 		System.out.println(a.equals("Hello"));
 		System.out.println(a.equals("HELLO"));
+
+		System.out.println("============================");
 		
+		System.out.println(a.equalsIgnoreCase(c));
 		
 	}
 
