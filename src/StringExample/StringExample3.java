@@ -15,8 +15,8 @@ public class StringExample3 {
 		System.out.println("banana".indexOf('a',4));
 		System.out.println("Apple".indexOf('p',2));
 		System.out.println("laptop".indexOf('p',3));
-		
-		System.out.println("sanikachogale".indexOf(0)));
+		System.out.println("==============================");
+		System.out.println("sanikachogale".indexOf('a',6));
 	}
 
 }
