@@ -17,6 +17,13 @@ public class StringExample3 {
 		System.out.println("laptop".indexOf('p',3));
 		System.out.println("==============================");
 		System.out.println("sanikachogale".indexOf('a',6));
+		
+		String s2="bottle";
+		char arr[]=s2.toCharArray();
+		for()
+		{
+			
+		}
 	}
 
 }
