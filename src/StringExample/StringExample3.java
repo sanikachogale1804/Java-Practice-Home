@@ -25,7 +25,6 @@ public class StringExample3 {
 			System.out.println(ch);
 		}
 		
-		String s3="siddhesh";
 		
 	}
 
