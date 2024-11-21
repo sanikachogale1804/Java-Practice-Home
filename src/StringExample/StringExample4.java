@@ -13,7 +13,6 @@ public class StringExample4 {
 		
 		String str="I love Java Programming";
 		String[] word=str.split(" ");
-		
 		StringBuilder reversedstr=new StringBuilder();
 		
 		for(int i=word.length-1;i>=0;i--)
@@ -23,8 +22,11 @@ public class StringExample4 {
 			{
 				reversedstr.append(" ");
 			}
+			
 		}
-	System.out.println(reversedstr.toString());	
+		
+	System.out.print(reversedstr.toString());	
+	
 	}
 
 }
