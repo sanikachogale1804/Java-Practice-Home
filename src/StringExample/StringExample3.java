@@ -11,10 +11,12 @@ public class StringExample3 {
 		System.out.println("Sneha".charAt(4));
 		
 		System.out.println("==============================");
-		System.out.println("sanikaa".indexOf('n'));
-		System.out.println("banana".indexOf('a'));
-		System.out.println("Apple".indexOf('p',3));
+		System.out.println("sanikaa".indexOf('n',2));
+		System.out.println("banana".indexOf('a',4));
+		System.out.println("Apple".indexOf('p',2));
+		System.out.println("laptop".indexOf('p',3));
 		
+		System.out.println("sanikachogale".indexOf(0)));
 	}
 
 }
