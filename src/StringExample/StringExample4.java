@@ -23,8 +23,7 @@ public class StringExample4 {
 				reversedstr.append(" ");
 			}
 			
-		}
-		
+		}	
 	System.out.print(reversedstr.toString());	
 	
 	}
