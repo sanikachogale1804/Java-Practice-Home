@@ -24,6 +24,8 @@ public class StringExample2 {
 		
 		String e="A";
 		String f="a";
+		
+		System.out.println(e.compareTo(f));
 	}
 
 }
