@@ -28,7 +28,8 @@ public class StringExample2 {
 		System.out.println(e.compareTo(f));
 		
 		System.out.println("============================");
-		
+		String name="INDIA";
+		System.out.println(name.toLowerCase());
 	}
 
 }
