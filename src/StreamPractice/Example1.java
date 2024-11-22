@@ -21,9 +21,7 @@ public class Example1 {
 		
 		System.out.println("=================================");
 		List<String> list2 = Arrays.asList("sanika","riya","sneha","tushar","akshata","siddhesh");
-		Stream<String> nameConsumer = list2.stream();
-		Consumer<String> name=(n)->System.out.println(n.charAt((n.length()-1)));
-		nameConsumer.forEach(name);
+		list2.stream().forEach((n)->System.out.println(n.charAt(n.length()-1)));
 		
 	}
 
