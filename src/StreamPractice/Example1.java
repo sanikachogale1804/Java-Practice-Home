@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 public class Example1 {
 	
@@ -18,7 +19,9 @@ public class Example1 {
 		
 		list.stream().forEach((i)->System.out.println(i));
 		
+		System.out.println("=================================");
 		List<String> list2 = Arrays.asList("sanika","riya","sneha","tushar","akshata");
+		Stream<String> nameConsumer = list2.stream();
 		
 		
 	}
