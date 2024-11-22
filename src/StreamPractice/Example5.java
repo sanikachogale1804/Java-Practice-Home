@@ -14,7 +14,8 @@ public class Example5 {
 		List<Integer> square = numbers.stream().map(squareFunction).collect(Collectors.toList());
 		System.out.println(square);
 		
-		
+		List<Integer> suare = numbers.stream().map((n)->n*n).collect(Collectors.toList());
+		System.out.println(suare);
 	}
 
 }
