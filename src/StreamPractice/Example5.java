@@ -18,8 +18,8 @@ public class Example5 {
 		System.out.println(suare);
 		
 		List<String> names = Arrays.asList("sanika","riya","akshata","tushar");
-		List<String> collect = names.stream().map((name)->name.len).collect(Collectors.toList());
-		System.out.println(collect);
+	    List<Integer> collect = names.stream().map((name)->name.length()).collect(Collectors.toList());
+	    System.out.println(collect);
 		
 	}
 
