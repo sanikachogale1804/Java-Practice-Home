@@ -11,6 +11,7 @@ public class Example1 {
 		{
 			 list.add(i);
 		}
+		System.out.println(list);
 	}
 
 }
