@@ -2,6 +2,8 @@ package StreamPractice;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Example2 {
 	
@@ -15,6 +17,13 @@ public class Example2 {
 		list.add(new Product(104,"washingmachine",70000));
 		
 		System.out.println(list);
+		
+		System.out.println("======================================");
+		
+		List<Product> greaterthan60000 = 
+				list.stream().filter((price)->price.getPrice()>60000).
+				collect(Collectors.toList());
+		System.out.println(greaterthan60000);
 		
 	}
 
