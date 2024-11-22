@@ -25,6 +25,9 @@ public class Example2 {
 				collect(Collectors.toList());
 		System.out.println(greaterthan60000);
 		
+	    List<Product> startWithW = list.stream().filter((name)->name.getName().startsWith("w")).collect(Collectors.toList());	
+		System.out.println(startWithW);
+	    
 	}
 
 }
