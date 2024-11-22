@@ -16,6 +16,11 @@ public class Example5 {
 		
 		List<Integer> suare = numbers.stream().map((n)->n*n).collect(Collectors.toList());
 		System.out.println(suare);
+		
+		List<String> names = Arrays.asList("sanika","riya","akshata","tushar");
+		List<String> collect = names.stream().map((name)->name.len).collect(Collectors.toList());
+		System.out.println(collect);
+		
 	}
 
 }
