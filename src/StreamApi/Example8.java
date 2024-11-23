@@ -10,6 +10,10 @@ public class Example8 {
 		
 		List<Integer> numbers = Arrays.asList(12,79,67,45,98,34);
 		Optional<Integer> first = numbers.stream().findFirst();
+		System.out.println(first);
+		
+		Integer integer = first.get();
+		System.out.println(integer);
 		
 		
 	}
