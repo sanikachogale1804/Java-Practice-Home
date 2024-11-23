@@ -27,6 +27,9 @@ public class Example7 {
 	    
 		System.out.println("===================================");
 		
+		boolean anyMatch2 = numbers.stream().anyMatch((n)->n%2==0);
+		System.out.println(anyMatch2);
+		
 		
 	    
 	}
