@@ -11,8 +11,8 @@ public class Example6 {
 
 	public static <E> void main(String[] args) {
 		
-     ArrayList<E> arrayList = new ArrayList<E>();
-     
-		
+     ArrayList<Integer> arrayList = new ArrayList<Integer>();
+     Optional<Integer> reduce = arrayList.stream().reduce((a,b)->a+b);
+		System.out.println(reduce);
 }
 }
