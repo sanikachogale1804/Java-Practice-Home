@@ -1,6 +1,7 @@
 package StreamPractice;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 public class Example7 {
 	
@@ -13,10 +14,8 @@ public class Example7 {
 		}
 		System.out.println(numbers);
 		
-		for(int num:numbers)
-		{
-			System.out.println(num);
-		}
+		Optional<Integer> any = numbers.stream().findAny();
+		System.out.println(any);
 	}
 
 }
