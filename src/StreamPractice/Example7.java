@@ -14,8 +14,10 @@ public class Example7 {
 		}
 		System.out.println(numbers);
 		
-		Optional<Integer> any = numbers.stream().findAny();
+		Optional<Integer> any = numbers.parallelStream().findAny();
 		System.out.println(any);
+		
+		
 	}
 
 }
