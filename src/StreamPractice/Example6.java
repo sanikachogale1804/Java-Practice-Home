@@ -18,7 +18,8 @@ public class Example6 {
 //	 Integer integer2 = reduce.get();
 //	 System.out.println(integer2);
 		
-	 reduce.orElseThrow(()->new RuntimeException("list is empty"));
+	 Integer orElseThrow = reduce.orElseThrow(()->new RuntimeException("list is empty"));
+	 System.out.println(orElseThrow);
 	 
 	 
 }
