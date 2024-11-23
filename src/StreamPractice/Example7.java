@@ -19,7 +19,13 @@ public class Example7 {
 		
 		System.out.println("===================================");
 		
+		boolean anyMatch = numbers.stream().anyMatch((n)->n>10);
+		System.out.println(anyMatch);
 		
+	    boolean allMatch = numbers.stream().allMatch((n)->n>10);
+	    System.out.println(allMatch);
+	    
+	    
 	}
 
 }
