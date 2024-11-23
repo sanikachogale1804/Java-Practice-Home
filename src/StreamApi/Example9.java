@@ -11,6 +11,8 @@ public class Example9 {
 		{
 			numbers.add(i);
 		}
+		System.out.println(numbers);
+		
 		
 	}
 
