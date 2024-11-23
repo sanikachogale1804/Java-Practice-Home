@@ -13,6 +13,8 @@ public class Example6 {
 		
      ArrayList<Integer> arrayList = new ArrayList<Integer>();
      Optional<Integer> reduce = arrayList.stream().reduce((a,b)->a+b);
-		System.out.println(reduce);
+	 System.out.println(reduce);
+		
+		
 }
 }
