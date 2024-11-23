@@ -15,6 +15,8 @@ public class Example6 {
      Optional<Integer> reduce = arrayList.stream().reduce((a,b)->a+b);
 	 System.out.println(reduce);
 		
+	 Integer integer2 = reduce.get();
+	 System.out.println(integer2);
 		
 }
 }
