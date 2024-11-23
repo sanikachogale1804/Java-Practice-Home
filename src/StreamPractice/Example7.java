@@ -34,6 +34,8 @@ public class Example7 {
 		System.out.println(allMatch2);
 		
 		System.out.println("===================================");
+		boolean noneMatch = numbers.stream().noneMatch((n)->n<100);
+		System.out.println(noneMatch);
 	    
 	}
 
