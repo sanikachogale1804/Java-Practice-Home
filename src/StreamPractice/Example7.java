@@ -25,6 +25,9 @@ public class Example7 {
 	    boolean allMatch = numbers.stream().allMatch((n)->n>10);
 	    System.out.println(allMatch);
 	    
+		System.out.println("===================================");
+		
+		
 	    
 	}
 
