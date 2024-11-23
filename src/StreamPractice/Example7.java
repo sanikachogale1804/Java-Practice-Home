@@ -11,7 +11,12 @@ public class Example7 {
 		{
 			numbers.add(i);
 		}
+		System.out.println(numbers);
 		
+		for(int num:numbers)
+		{
+			System.out.println(num);
+		}
 	}
 
 }
