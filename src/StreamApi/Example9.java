@@ -13,7 +13,10 @@ public class Example9 {
 		}
 		System.out.println(numbers);
 		
+		System.out.println("============================");
 		
+		numbers.parallelStream().forEach((num)->System.out.println(num));
+		System.out.println("============================");
 	}
 
 }
