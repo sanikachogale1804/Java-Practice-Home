@@ -17,6 +17,8 @@ public class Example7 {
 		Optional<Integer> any = numbers.parallelStream().findAny();
 		System.out.println(any);
 		
+		System.out.println("===================================");
+		
 		
 	}
 
