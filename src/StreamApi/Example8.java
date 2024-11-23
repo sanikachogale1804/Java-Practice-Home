@@ -16,7 +16,8 @@ public class Example8 {
 //		Integer integer = first.get();
 //		System.out.println(integer);
 		
-		
+		Integer orElseThrow = first.orElseThrow(()->new ArithmeticException("id not found"));
+		System.out.println(orElseThrow);
 		
 	}
 
