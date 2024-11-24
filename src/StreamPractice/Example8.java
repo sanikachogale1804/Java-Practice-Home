@@ -8,10 +8,8 @@ public class Example8 {
 	
 	public static void main(String[] args) {
 		
-      List<String> list = Arrays.asList("apple","banana","watermelon","kivi");
+      List<Integer> list = Arrays.asList(78,35,11,89,34,91,46);
 	  System.out.println(list);	 
-		
-		list.stream().forEach((name)->System.out.println(name.charAt(name.length()-1)));
 		
 		
 		
