@@ -1,12 +1,14 @@
 package StreamPractice;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Example8 {
 	
 	public static void main(String[] args) {
 		
-		ArrayList<String> list = new ArrayList<String>();
+	List<String> list = Arrays.asList("apple","banana","watermelon","kivi");
 		
 		
 		
