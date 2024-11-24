@@ -17,6 +17,8 @@ public class Example9 {
 		
 		numbers.parallelStream().forEach((num)->System.out.println(num));
 		System.out.println("============================");
+		
+		
 	}
 
 }
