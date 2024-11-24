@@ -8,8 +8,8 @@ public class Example8 {
 	
 	public static void main(String[] args) {
 		
-	List<String> list = Arrays.asList("apple","banana","watermelon","kivi");
-		
+      List<String> list = Arrays.asList("apple","banana","watermelon","kivi");
+	  System.out.println(list);	 
 		
 		
 	}
