@@ -11,7 +11,9 @@ public class Example8 {
       List<String> list = Arrays.asList("apple","banana","watermelon","kivi");
 	  System.out.println(list);	 
 		
-		list.stream().forEach((name)->System.out.println(name));
+		list.stream().forEach((name)->System.out.println(name.charAt(name.length()-1)));
+		
+		
 		
 	}
 
