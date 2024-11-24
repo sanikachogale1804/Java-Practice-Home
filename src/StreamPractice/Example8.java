@@ -11,7 +11,7 @@ public class Example8 {
       List<Integer> list = Arrays.asList(78,35,11,89,34,91,46);
 	  System.out.println(list);	 
 		
-		
+
 		
 	}
 
