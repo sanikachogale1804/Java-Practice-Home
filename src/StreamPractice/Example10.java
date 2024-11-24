@@ -16,7 +16,7 @@ public class Example10 {
 		            new Employee("David", 4000)
 		        );
 		 
-		 employees.stream().map((name)->name.getName()+name.getSalary()*10).collect(Collectors.toList());
+		 employees.stream().map((name)->name.getSalary()*10).forEach((salary)->System.out.println(" new salary: "+ salary));
 		
 		 
 	}
