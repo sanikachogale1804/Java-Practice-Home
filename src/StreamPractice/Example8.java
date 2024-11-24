@@ -8,19 +8,10 @@ public class Example8 {
 	
 	public static void main(String[] args) {
 		
-      List<Integer> list = Arrays.asList(78,35,11,89,34,91,46);
+      List<String> list = Arrays.asList("apple","banana","watermelon","kivi");
 	  System.out.println(list);	 
 		
-	  list.stream().forEach((num)->{
-		  if(num%2==0)
-		  {
-			  System.out.println(num +"is even");
-		  }
-		  else
-		  {
-			  System.out.println(num+ "is odd");
-		  }
-	  });
+	  
 		
 	}
 
