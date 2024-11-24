@@ -8,11 +8,15 @@ import java.util.stream.Collectors;
 public class Example10 {
 	
 	public static void main(String[] args) {
-		List<Integer> numbers = Arrays.asList(12,79,67,34,90,13);
-		
-		List<Integer> multipyby10 = numbers.stream().map((n)->n*10).collect(Collectors.toList());
-		System.out.println(multipyby10);
-		
+		 List<Employee> employees = Arrays.asList(
+		            new Employee("Alice", 5000),
+		            new Employee("Bob", 4500),
+		            new Employee("Charlie", 6000),
+		            new Employee("David", 4000)
+		        );
+		 
+		 
+		 
 	}
 
 }
