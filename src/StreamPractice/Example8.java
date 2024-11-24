@@ -8,6 +8,8 @@ public class Example8 {
 		
 		ArrayList<String> list = new ArrayList<String>();
 		
+		
+		
 	}
 
 }
