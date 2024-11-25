@@ -22,7 +22,16 @@ class T2 extends Thread{
 	
 	public void run()
 	{
-		
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println("by-by");
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
 	
 }
@@ -34,8 +43,9 @@ public class Example1 {
 		T1 t=new T1();
 		t.start();
 		
-		
-		
+		T2 t2=new T2();
+		t2.start();
+				
 	}
 
 }
