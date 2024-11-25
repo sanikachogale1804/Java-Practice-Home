@@ -15,6 +15,9 @@ class T1 extends Thread
 public class Example1 {
 	
 	public static void main(String[] args) {
+	
+		T1 t=new T1();
+		t.start();
 		
 	}
 
