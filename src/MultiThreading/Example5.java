@@ -26,8 +26,15 @@ public class Example5 {
 //			}
 //		};
 	
-	
-	
+	        Thread t2=new Thread(new Runnable() {
+				
+				@Override
+				public void run() {
+				System.out.println("Anonymous inner class");
+					
+				}
+			});
+		t2.start();
 		
 	}
 
