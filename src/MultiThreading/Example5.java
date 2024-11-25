@@ -18,8 +18,17 @@ public class Example5 {
 		Thread t1=new Thread(new Thread1());
 		t1.start();
 		
-		
+//		Runnable r1=new Runnable()
+//		{
+//			public void run()
+//			{
+//				System.out.println("Anonymous inner class:");
+//			}
+//		};
 	
+	
+	
+		
 	}
 
 }
