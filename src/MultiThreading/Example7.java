@@ -12,7 +12,7 @@ public class Example7 {
 				}
 			});
 		t1.start();
-		
+		t1.start();
 		System.out.println(counter.count);
 		
 	}
