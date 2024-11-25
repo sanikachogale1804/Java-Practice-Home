@@ -16,7 +16,7 @@ public class Example9 {
 	        );
 		  
 		people.stream().filter((name)->name.getAge()>20).forEach((name)->System.out.println(name.getName()));
-		people.stream().filter(null)
+		
 	}
 
 }
