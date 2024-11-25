@@ -38,13 +38,16 @@ class T2 extends Thread{
 
 public class Example1 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 	
 		T1 t=new T1();
 		t.start();
 		
 		T2 t2=new T2();
 		t2.start();
+		t2.join();
+		t2.join();
+		System.out.println("main method");
 				
 	}
 
