@@ -36,13 +36,15 @@ class T4 extends Thread
 
 public class Example2 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		T3 t=new T3();
 		t.start();
 		
 		T4 t4=new T4();
 		t4.start();
+		t4.join();
+		System.out.println("hello");
 		
 	}
 
