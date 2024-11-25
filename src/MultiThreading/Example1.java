@@ -1,9 +1,12 @@
 package MultiThreading;
 
 
-class T1
+class T1 extends Thread
 {
-	
+	public void run()
+	{
+		
+	}
 }
 
 public class Example1 {
