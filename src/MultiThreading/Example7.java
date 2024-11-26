@@ -2,7 +2,7 @@ package MultiThreading;
 
 public class Example7 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 	  Counter counter=new Counter();
 		Thread t1=new Thread(()->{
@@ -22,7 +22,7 @@ public class Example7 {
 		t1.start();
 		t2.start();
 		
-		t1;
+		t1.join();
 		
 		System.out.println(counter.count);
 	}
