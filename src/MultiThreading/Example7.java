@@ -13,7 +13,10 @@ public class Example7 {
 		});
 		
 		Thread t2=new Thread(()->{
-			
+			for(int i=1;i<=50000;i++)
+			{
+				
+			}
 		});
 	}
 
