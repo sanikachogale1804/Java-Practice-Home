@@ -18,6 +18,9 @@ public class Example7 {
 				counter.increment();
 			}
 		});
+		
+		t1.start();
+		t2.start();
 	}
 
 }
