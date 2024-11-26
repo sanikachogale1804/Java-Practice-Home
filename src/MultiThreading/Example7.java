@@ -6,7 +6,7 @@ public class Example7 {
 		
 	  Counter counter=new Counter();
 		Thread t1=new Thread(()->{
-			for()
+			for(int i=1;i<=50000;i++)
 			{
 				
 			}
