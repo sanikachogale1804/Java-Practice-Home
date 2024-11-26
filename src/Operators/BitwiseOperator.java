@@ -14,6 +14,13 @@ public class BitwiseOperator {
                                     //------------
                                     //111100
 		
+		System.out.println(10^30);  //01010
+                                    //11110
+		                            //---------
+		                            //10100
+
+
+		
 	}
 
 }
