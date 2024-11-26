@@ -9,8 +9,17 @@ public class UnaryOperator {
 		i--;
 		i--;
 		i++;
-		
+		i++;
 		System.out.println(i);
+		
+		int j=20;
+		++j;
+		
+		int k=20;
+		k++;
+		++k;
+		System.out.println(j);
+		System.out.println(k);
 	}
 	
 }
