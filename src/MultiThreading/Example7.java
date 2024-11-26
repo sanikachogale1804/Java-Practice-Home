@@ -8,7 +8,7 @@ public class Example7 {
 		Thread t1=new Thread(()->{
 			for(int i=1;i<=50000;i++)
 			{
-				
+				counter.increment();
 			}
 		});
 	}
