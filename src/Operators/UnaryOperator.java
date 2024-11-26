@@ -10,6 +10,7 @@ public class UnaryOperator {
 		i--;
 		i++;
 		
+		System.out.println(i);
 	}
 	
 }
