@@ -11,6 +11,10 @@ public class Example7 {
 				counter.increment();
 			}
 		});
+		
+		Thread t2=new Thread(()->{
+			
+		});
 	}
 
 }
