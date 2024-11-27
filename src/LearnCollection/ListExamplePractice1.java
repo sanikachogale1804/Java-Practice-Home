@@ -13,6 +13,8 @@ public class ListExamplePractice1 {
 		products.add(new Product(102,"mobile",68000));
 		products.add(new Product(10,"headphones",6000));
 		
+//		products.removeIf(p->p.getprice()<10000);
+//		System.out.println(products);
 		
 		
 	}
