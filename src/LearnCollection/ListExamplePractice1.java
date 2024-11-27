@@ -23,6 +23,8 @@ public class ListExamplePractice1 {
 		System.out.println(stack);
 		System.out.println("=====================");
 		System.out.println(stack.search(67));
+		System.out.println("=====================");
+		
 		
 	}
 
