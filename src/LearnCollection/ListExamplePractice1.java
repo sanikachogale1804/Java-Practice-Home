@@ -14,7 +14,7 @@ public class ListExamplePractice1 {
 	
 	public static void main(String[] args) {
 		Stack<Integer> stack=new Stack<Integer>();
-		//System.out.println(stack.empty());
+		System.out.println(stack.empty());
 		stack.push(20);
 		stack.push(45);
 		stack.push(67);
