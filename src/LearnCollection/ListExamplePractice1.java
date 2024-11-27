@@ -13,9 +13,9 @@ public class ListExamplePractice1 {
 		list.add(32);
 		System.out.println(list);
 		
-		System.out.println(list.size());
-		
-		
+		System.out.println(list.size()-1);
+		System.out.println(list.remove(3));
+		System.out.println(list);
 		
 	}
 
