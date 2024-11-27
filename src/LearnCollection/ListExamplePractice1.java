@@ -13,6 +13,10 @@ public class ListExamplePractice1 {
 		list.add(32);
 		System.out.println(list);
 		
+		System.out.println(list.size());
+		
+		
+		
 	}
 
 }
