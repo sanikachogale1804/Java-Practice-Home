@@ -14,6 +14,9 @@ public class ListExamplePractice1 {
 		names.add("tushar");
 		System.out.println(names);
 		
+		Predicate<String> n=(name)->name.startsWith("a");
+		names.removeIf(n);
+		System.out.println(names);
 		
 	}
 
