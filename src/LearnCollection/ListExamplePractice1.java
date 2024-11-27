@@ -25,7 +25,8 @@ public class ListExamplePractice1 {
 		list.addAll(list2);
 		System.out.println(list);
 		
-		
+		list.clear();
+		System.out.println(list);
 		
 	}
 
