@@ -13,8 +13,8 @@ public class ListExamplePractice1 {
         LinkedList<Product> products=new LinkedList<Product>();
 		
 		products.add(new Product(101,"laptop",58000));
-		products.add(new Product(102,"mobile",68000));
-		products.add(new Product(10,"headphones",6000));
+		products.add(new Product(10,"mobile",68000));
+		products.add(new Product(1043,"headphones",6000));
 		
 //		products.removeIf(p->p.getprice()<10000);
 //		System.out.println(products);
@@ -25,7 +25,7 @@ public class ListExamplePractice1 {
 		
 		Comparator<Product> idComparator=(o1,o2)->o1.getId()-o2.getId();
 		Collections.sort(products,idComparator);
-		
+		System.out.println(products);
 	}
 
 }
