@@ -16,6 +16,9 @@ public class ListExamplePractice1 {
 		System.out.println(numbers);
 		
 		Collections.sort(numbers);
+		System.out.println(numbers);
+		
+		System.out.println("Largest element:"+ numbers.get(numbers.size()-1));
 		
 	}
 
