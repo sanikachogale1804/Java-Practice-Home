@@ -23,6 +23,9 @@ public class ListExamplePractice1 {
 		Collections.sort(products,nameComparator);
 		System.out.println(products);
 		
+		Comparator<Product> idComparator=(o1,o2)->o1.getId()-o2.getId();
+		Collections.sort(products,idComparator);
+		
 	}
 
 }
