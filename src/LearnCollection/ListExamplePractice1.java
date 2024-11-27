@@ -22,7 +22,7 @@ public class ListExamplePractice1 {
 		stack.push(56);
 		System.out.println(stack);
 		System.out.println("=====================");
-		
+		System.out.println(stack.search(67));
 		
 	}
 
