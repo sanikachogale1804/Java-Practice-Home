@@ -24,7 +24,8 @@ public class ListExamplePractice1 {
 		System.out.println("=====================");
 		System.out.println(stack.search(67));
 		System.out.println("=====================");
-		
+		System.out.println(stack.pop());
+		System.out.println(stack);
 		
 	}
 
