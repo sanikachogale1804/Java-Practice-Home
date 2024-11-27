@@ -24,7 +24,7 @@ public class ListExamplePractice1 {
 		
 		while(iterator.hasNext())
 		{
-			
+			System.out.println(iterator.next());
 		}
 		
 	}
