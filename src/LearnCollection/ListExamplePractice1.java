@@ -17,6 +17,10 @@ public class ListExamplePractice1 {
 		System.out.println(list.remove(3));
 		System.out.println(list);
 		
+		ArrayList<Integer> list2=new ArrayList<Integer>();
+		list2.add(101);
+		list2.add(102);
+		list2.add(103);
 	}
 
 }
