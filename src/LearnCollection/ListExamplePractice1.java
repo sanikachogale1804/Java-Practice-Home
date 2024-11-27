@@ -19,8 +19,8 @@ public class ListExamplePractice1 {
 		list.add(12);
 		System.out.println(list);
 		
-		list.iterator();
-		System.out.println(list);
+		Iterator<Integer> iterator = list.iterator();
+		System.out.println(iterator.next());
 		
 	}
 
