@@ -22,6 +22,11 @@ public class ListExamplePractice1 {
 		Iterator<Integer> iterator = list.iterator();
 		System.out.println(iterator.next());
 		
+		while()
+		{
+			
+		}
+		
 	}
 
 }
