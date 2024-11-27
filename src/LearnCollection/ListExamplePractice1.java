@@ -17,7 +17,7 @@ public class ListExamplePractice1 {
 		list.add(0,34);
 		System.out.println(list);
 		
-		
+		System.out.println(list.get(2));
 	}
 
 }
