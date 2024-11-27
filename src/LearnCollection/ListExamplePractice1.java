@@ -15,6 +15,7 @@ public class ListExamplePractice1 {
 		List<Integer> numbers=Arrays.asList(78,98,35,76,13);
 		System.out.println(numbers);
 		
+		Collections.sort(numbers);
 		
 	}
 
