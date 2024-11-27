@@ -1,7 +1,10 @@
 package LearnCollection;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.function.Predicate;
 
 public class ListExamplePractice1 {
@@ -16,6 +19,9 @@ public class ListExamplePractice1 {
 //		products.removeIf(p->p.getprice()<10000);
 //		System.out.println(products);
 		
+		Comparator<Product> nameComparator=(p1,p2)->p1.getName().compareTo(p2.getName());
+		Collections.sort(products,nameComparator);
+		System.out.println(products);
 		
 	}
 
