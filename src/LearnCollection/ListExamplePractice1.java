@@ -11,14 +11,12 @@ import java.util.function.Predicate;
 public class ListExamplePractice1 {
 	
 	public static void main(String[] args) {
-         
-		List<Integer> numbers=Arrays.asList(78,98,35,76,13);
-		System.out.println(numbers);
-		
-		Collections.sort(numbers);
-		System.out.println(numbers);
-		
-		System.out.println("Largest element:"+ numbers.get(numbers.size()-1));
+		LinkedList<Integer> list=new LinkedList<Integer>();
+		list.add(67);
+		list.add(89);
+		list.add(35);
+		list.add(12);
+		System.out.println(list);
 		
 	}
 
