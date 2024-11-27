@@ -21,6 +21,12 @@ public class ListExamplePractice1 {
 		list2.add(101);
 		list2.add(102);
 		list2.add(103);
+		
+		list.addAll(list2);
+		System.out.println(list);
+		
+		
+		
 	}
 
 }
