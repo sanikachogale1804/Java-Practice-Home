@@ -8,7 +8,7 @@ public class ListExamplePractice1 {
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("apple");
 		list.add("banana");
-		
+		list.add("kivi");
 	}
 
 }
