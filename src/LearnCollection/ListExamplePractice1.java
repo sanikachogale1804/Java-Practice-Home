@@ -14,7 +14,8 @@ public class ListExamplePractice1 {
         System.out.println(list);
 		System.out.println("===================");
 		
-		
+		list.add(34);
+		System.out.println(list);
 		
 	}
 
