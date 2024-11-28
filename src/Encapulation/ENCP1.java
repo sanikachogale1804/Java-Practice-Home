@@ -8,7 +8,7 @@ public class ENCP1 {
 		c.setId(101);
 		c.setName("Clothes");
 		
-		
+		System.out.println(c.getId());
 	}
 
 }
