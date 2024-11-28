@@ -23,8 +23,12 @@ public class MapExamplePractice1 {
 		System.out.println(students.keySet());
 		System.out.println(students.values());
 		
+		System.out.println("================================");
 		Set<Integer> keys = students.keySet();
-		
+		for(Integer k:keys)
+		{
+			System.out.println(k);
+		}
 	}
 	
 }
