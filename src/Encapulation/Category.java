@@ -30,5 +30,14 @@ public class Category {
 		return "Category [id=" + id + ", name=" + name + "]";
 	}
 	
+	Category()
+	{
+		
+	}
+	
+	Category(int id,String name)
+	{
+		
+	}
 	
 }
