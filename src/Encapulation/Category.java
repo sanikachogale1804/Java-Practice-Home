@@ -10,9 +10,9 @@ public class Category {
 		this.id=id;
 	}
 	
-	public void getId()
+	public int getId()
 	{
-		
+		s
 	}
 
 }
