@@ -1,6 +1,7 @@
 package LearnCollection;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class MapExamplePractice1 {
 
@@ -21,6 +22,9 @@ public class MapExamplePractice1 {
 		System.out.println(students);
 		System.out.println(students.keySet());
 		System.out.println(students.values());
+		
+		Set<Integer> keys = students.keySet();
+		
 	}
 	
 }
