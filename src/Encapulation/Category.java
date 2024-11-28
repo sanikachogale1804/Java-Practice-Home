@@ -15,7 +15,7 @@ public class Category {
 		return this.id;
 	}
 	
-	public void setName()
+	public void setName(String name)
 	{
 		
 	}
