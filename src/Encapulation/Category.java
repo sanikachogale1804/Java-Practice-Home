@@ -25,9 +25,6 @@ public class Category {
 		return this.name;
 	}
 
-	public String toString()
-	{
-		
-	}
+	
 	
 }
