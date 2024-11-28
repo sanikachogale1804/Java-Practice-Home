@@ -15,6 +15,8 @@ public class MapExamplePractice1 {
 		students.put(null, null);
 		
 		System.out.println(students);
+		System.out.println(students.get(101));
+		
 		
 	}
 	
