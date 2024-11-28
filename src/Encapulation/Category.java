@@ -12,7 +12,7 @@ public class Category {
 	
 	public int getId()
 	{
-		s
+		return id;
 	}
 
 }
