@@ -27,7 +27,7 @@ public class MapExamplePractice1 {
 		Set<Integer> keys = students.keySet();
 		for(Integer k:keys)
 		{
-			System.out.println(k);
+			System.out.println(students.get(k));
 		}
 	}
 	
