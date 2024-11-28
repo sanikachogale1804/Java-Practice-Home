@@ -17,8 +17,10 @@ public class MapExamplePractice1 {
 		System.out.println(students);
 		System.out.println(students.get(101));
 		System.out.println(students.getOrDefault(1033, "hello"));
-		
-		
+		System.out.println(students.remove(103));
+		System.out.println(students);
+		System.out.println(students.keySet());
+		System.out.println(students.values());
 	}
 	
 }
