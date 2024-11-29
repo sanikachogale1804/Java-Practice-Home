@@ -25,5 +25,11 @@ public class Book {
 		BookNumber = bookNumber;
 	}
 	
+	Book()
+	{
+		
+	}
+	
+	
 	
 }
