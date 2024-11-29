@@ -10,7 +10,6 @@ public static void main(String[] args) {
         Library library = new Library();
 
         while (true) {
-            // Display the menu
             System.out.println("Library Management System");
             System.out.println("1. Add Book");
             System.out.println("2. Remove Book");
@@ -19,6 +18,7 @@ public static void main(String[] args) {
             System.out.print("Enter your choice: ");
             
             int choice = scanner.nextInt();
+            scanner.nextLine();  // Consume the newline character
 
             switch (choice) {
                 case 1:  // Add a book
