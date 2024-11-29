@@ -13,7 +13,7 @@ public class EmployeeMain {
 	
 		Employee e2=new Employee();
 		e2.setEmployeeDetails(102, "sneha", 50000);
-		
+		System.out.println(e2.id);
 		
 	}
 
