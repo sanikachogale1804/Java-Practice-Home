@@ -11,6 +11,8 @@ public class MapExamplePractice2 {
 		linkedHashMap.put("riya","8765490734");
 	  	linkedHashMap.put("tushar","7864390117");
 		System.out.println(linkedHashMap);
+	
+		
 		
 	}
 
