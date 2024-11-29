@@ -19,7 +19,6 @@ public static void main(String[] args) {
             System.out.print("Enter your choice: ");
             
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Consume the newline character
 
             switch (choice) {
                 case 1:  // Add a book
