@@ -51,7 +51,7 @@ public class Main {
 
 	                case 4:
 	                    // Exit
-	                    System.out.println("Exiting the system. Goodbye!");
+	                    System.out.println("Exiting the system. ");
 	                    scanner.close();
 	                    return;
 
@@ -63,4 +63,4 @@ public class Main {
 	}
 
 
-}
+
