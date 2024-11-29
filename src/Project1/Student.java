@@ -4,42 +4,42 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-	
-	    private String name;
-	    private List<String> attendance;  // List to store "Present" or "Absent"
 
-	    // Constructor initializes the student's name and creates an empty list for attendance
-	    public Student(String name, int totalDays) {
+	    private String name;
+	    private String studentId;
+	    private List<String> courses;
+
+	    // Constructor
+	    public Student(String name, String studentId) {
 	        this.name = name;
-	        this.attendance = new ArrayList<>(totalDays);
-	        // Initialize attendance with "Absent" by default
-	        for (int i = 0; i < totalDays; i++) {
-	            this.attendance.add("Absent");
-	        }
+	        this.studentId = studentId;
+	        this.courses = new ArrayList<>();
 	    }
 
+	    // Get student name
 	    public String getName() {
 	        return name;
 	    }
 
-	    // Mark attendance for a particular day (0-based index)
-	    public void markAttendance(int day, String status) {
-	        if (day >= 0 && day < attendance.size()) {
-	            attendance.set(day, status);
-	        } else {
-	            System.out.println("Invalid day index.");
-	        }
+	    // Get student ID
+	    public String getStudentId() {
+	        return studentId;
 	    }
 
-	    // View attendance for the student
-	    public void viewAttendance() {
-	        System.out.print(name + ": ");
-	        for (String status : attendance) {
-	            System.out.print(status + " ");
+	    // Enroll a student in a course
+	    public void enrollInCourse(String course) {
+	        courses.add(course);
+	    }
+
+	    // View student information
+	    public void viewStudentInfo() {
+	        System.out.println("Student Name: " + name);
+	        System.out.println("Student ID: " + studentId);
+	        System.out.println("Enrolled Courses: ");
+	        for (String course : courses) {
+	            System.out.println(" - " + course);
 	        }
-	        System.out.println();
 	    }
 	}
 
-
-
+	
