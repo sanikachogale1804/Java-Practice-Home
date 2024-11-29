@@ -4,7 +4,7 @@ public class Book {
 
 	 private String title;
 	 private String author;
-	 private String BookNumber;
+	 private int BookNumber;
 	 
 	public String getTitle() {
 		return title;
@@ -18,10 +18,10 @@ public class Book {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
-	public String getBookNumber() {
+	public int getBookNumber() {
 		return BookNumber;
 	}
-	public void setBookNumber(String bookNumber) {
+	public void setBookNumber(int bookNumber) {
 		BookNumber = bookNumber;
 	}
 	
@@ -30,6 +30,10 @@ public class Book {
 		
 	}
 	
+	Book(String title,String author,int bookNumber)
+	{
+		
+	}
 	
 	
 }
