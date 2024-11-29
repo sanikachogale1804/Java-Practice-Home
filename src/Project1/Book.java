@@ -37,5 +37,10 @@ public class Book {
 		this.bookNumber=bookNumber;
 	}
 	
+	@Override
+	public String toString() {
+		return "Book [title=" + title + ", author=" + author + ", bookNumber=" + bookNumber + "]";
+	}
+	
 	
 }
