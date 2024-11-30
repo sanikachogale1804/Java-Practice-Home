@@ -8,6 +8,7 @@ public class ForLoopPractice {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number of limits:");
+		int sum=0;
         int nextint = sc.nextInt();		
 		for(int i=1;i<=n;i++)
 		{
