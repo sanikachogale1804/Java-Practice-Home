@@ -14,7 +14,7 @@ public class ForLoopPractice {
 		{
 			sum=sum+i;
 		}
-        
+        System.out.println(sum);
 	}
 
 }
