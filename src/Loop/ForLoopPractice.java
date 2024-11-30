@@ -9,9 +9,9 @@ public class ForLoopPractice {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number of limits:");
         int nextint = sc.nextInt();		
-		for()
+		for(int i=1;i<=n;i++)
 		{
-			
+			sum=sum+i;
 		}
         
 	}
