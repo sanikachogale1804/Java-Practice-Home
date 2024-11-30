@@ -1,7 +1,7 @@
 package Projects;
 
 import java.util.Comparator;
-//public class Product implements Comparable<Product>{
+
 public class Product implements Comparator<Product>{
 
 	private int id;
@@ -45,11 +45,7 @@ public class Product implements Comparator<Product>{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-//	@Override
-//	public int compareTo(Product o) {
-//		// TODO Auto-generated method stub
-//		return 0;
-//	}
+
 	
 	
 	
