@@ -9,7 +9,11 @@ public class ForLoopPractice {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number of limits:");
         int nextint = sc.nextInt();		
-		
+		for()
+		{
+			
+		}
+        
 	}
 
 }
