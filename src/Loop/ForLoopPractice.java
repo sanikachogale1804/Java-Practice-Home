@@ -17,7 +17,7 @@ public class ForLoopPractice {
 		{
 			result *= base;
 		}
-		
+		System.out.println(result);
 	}
 
 }
