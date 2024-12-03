@@ -11,8 +11,9 @@ public class Example9 {
 	public static void main(String[] args) {
 	
 		List<Integer> numbers = Arrays.asList(12,78,45,67,34,23);
+	    int sum=1;	
 		
-		numbers.stream().forEach((i)->System.out.println(i+i));
+		numbers.stream().forEach();
 	}
 
 }
