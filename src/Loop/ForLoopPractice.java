@@ -8,7 +8,7 @@ public class ForLoopPractice {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the base value:");
-		sc.nextInt();
+		int base = sc.nextInt();
 		
 	}
 
