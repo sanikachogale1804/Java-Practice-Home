@@ -11,6 +11,7 @@ public class Example9 {
 	public static void main(String[] args) {
 	
 		int numbers[]= {12,67,13,78,45};
+		Arrays.stream(numbers);
 		
 	}
 
