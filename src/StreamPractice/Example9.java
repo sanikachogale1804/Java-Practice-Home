@@ -10,8 +10,7 @@ public class Example9 {
 	
 	public static void main(String[] args) {
 	
-		String words[]= {"APpple","banana","kivi"};
-		Arrays.stream(words).forEach(word->System.out.println(word.toLowerCase()));
+		int numbers[]= {12,67,13,78,45};
 		
 	}
 
