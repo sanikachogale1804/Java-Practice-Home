@@ -14,6 +14,7 @@ public class Example9 {
 	    int sum=0;	
 		
 		numbers.stream().forEach(num->sum+=num);
+	    System.out.println(sum);
 	}
 
 }
