@@ -11,7 +11,7 @@ public class Example9 {
 	public static void main(String[] args) {
 	
 		String words[]= {"apple","banana","kivi"};
-		Arrays.stream(words).forEach(word->word.toLowerCase());
+		Arrays.stream(words).forEach(word->System.out.println(word.toLowerCase()));
 		
 	}
 
