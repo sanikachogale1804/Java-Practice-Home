@@ -10,7 +10,7 @@ public class Example9 {
 	public static void main(String[] args) {
 	
 		List<Integer> numbers = Arrays.asList(12,78,45,67,34,23);
-		
+		numbers.stream().forEach(null);
 	}
 
 }
