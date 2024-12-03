@@ -15,7 +15,7 @@ public class ForLoopPractice {
 		
 		for(int i=1;i<=power;i++)
 		{
-			
+			result *= base;
 		}
 		
 	}
