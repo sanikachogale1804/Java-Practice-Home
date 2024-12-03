@@ -10,11 +10,8 @@ public class Example9 {
 	
 	public static void main(String[] args) {
 	
-		List<Integer> numbers = Arrays.asList(12,78,45,67,34,23);
-	    int sum=0;	
+		String words[]= {"apple","banana","kivi"};
 		
-		numbers.stream().forEach(num->sum+=num);
-	    System.out.println(sum);
 	}
 
 }
