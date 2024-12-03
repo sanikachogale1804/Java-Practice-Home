@@ -9,7 +9,7 @@ public class Example9 {
 	
 	public static void main(String[] args) {
 	
-		Arrays.asList(12,78,45,67,34,23);
+		List<Integer> numbers = Arrays.asList(12,78,45,67,34,23);
 		
 	}
 
