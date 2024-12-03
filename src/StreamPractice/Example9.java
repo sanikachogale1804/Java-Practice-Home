@@ -9,6 +9,7 @@ public class Example9 {
 	
 	public static void main(String[] args) {
 	
+		int[] numbers= {12,56,24,67,89,35};
 		
 	}
 
