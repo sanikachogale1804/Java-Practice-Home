@@ -12,7 +12,7 @@ public class ForLoopPractice {
 		System.out.println("Enter the power value");
 		int power = sc.nextInt();
 		
-		for()
+		for(int i=1;i<=power;i++)
 		{
 			
 		}
