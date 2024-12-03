@@ -9,6 +9,8 @@ public class ForLoopPractice {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the base value:");
 		int base = sc.nextInt();
+		System.out.println("Enter the power value");
+		
 		
 	}
 
