@@ -8,7 +8,7 @@ public class InterfaceEx6 {
 	
 	public static void main(String[] args) {
 		
-		Predicate<Integer> isEven=()->;
+		Predicate<Integer> isEven=(num)->;
 		
 	}
 
