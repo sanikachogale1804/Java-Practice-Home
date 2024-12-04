@@ -9,7 +9,7 @@ public class InterfaceEx5 {
 	public static void main(String[] args) {
 		
 		List<String> list = Arrays.asList("apple", "banana", "cherry");
-		Comparator<String> comparator=()
+		Comparator<String> comparator=(str1,str2)->;
 		
 	}
 	
