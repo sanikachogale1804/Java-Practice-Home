@@ -4,11 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-@FunctionalInterface
-public interface isEven
-{
-	boolean test(int num);
-}
+
 
 public class InterfaceEx6 {
 	
