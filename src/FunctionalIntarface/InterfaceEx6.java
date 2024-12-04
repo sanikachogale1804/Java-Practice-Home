@@ -4,7 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-public 
+public interface Even
+{
+	
+}
 
 public class InterfaceEx6 {
 	
