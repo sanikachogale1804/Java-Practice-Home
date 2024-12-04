@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 
 public interface Even
 {
-	
+	boolean test(int num);
 }
 
 public class InterfaceEx6 {
