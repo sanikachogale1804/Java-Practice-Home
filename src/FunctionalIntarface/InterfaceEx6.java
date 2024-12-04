@@ -12,6 +12,7 @@ public class InterfaceEx6 {
 		
 		Predicate<Integer> isEven=(num)-> num % 2 == 0;
 		System.out.println(isEven.test(30));
+		System.out.println(isEven.test(89));
 		
 	}
 
