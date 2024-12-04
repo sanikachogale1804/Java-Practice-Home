@@ -9,6 +9,7 @@ public class InterfaceEx6 {
 		
 		List<String> list = Arrays.asList("sanika","sneha","riya");
 		
+		
 	}
 
 }
