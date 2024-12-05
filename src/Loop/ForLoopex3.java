@@ -6,7 +6,8 @@ public class ForLoopex3 {
 
 	public static void main(String[] args) {
 	
-		Scanner 
+		Scanner sc=new Scanner(System.in);
+		System.out.println();
 		
 	}
 	
