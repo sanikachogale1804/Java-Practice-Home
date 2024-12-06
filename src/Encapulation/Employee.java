@@ -10,7 +10,7 @@ public class Employee {
 		
 	}
 	
-	Employee()
+	Employee(int id,String name)
 	{
 		
 	}
