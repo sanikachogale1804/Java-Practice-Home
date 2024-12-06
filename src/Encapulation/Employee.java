@@ -27,8 +27,10 @@ public class Employee {
 	
 	public void setName()
 	{
-		
+		this.name=name;
 	}
+	
+	
 }
 
 
