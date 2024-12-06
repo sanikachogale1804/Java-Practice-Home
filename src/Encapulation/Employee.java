@@ -25,6 +25,10 @@ public class Employee {
 		return this.id;
 	}
 	
+	public void setName()
+	{
+		
+	}
 }
 
 
