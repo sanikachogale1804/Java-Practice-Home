@@ -10,6 +10,7 @@ public class ForLoopex3 {
 		System.out.println("Enter the digits:");
 		int num = sc.nextInt();
 		
+		
 	}
 	
 }
