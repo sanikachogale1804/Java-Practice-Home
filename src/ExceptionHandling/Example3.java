@@ -21,6 +21,13 @@ public class Example3 {
 		System.out.println(e);
 		}
 		
+		try {
+			throwExceprion1();
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println(e);
+		}
 	}
 
 }
