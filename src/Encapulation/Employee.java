@@ -35,12 +35,15 @@ public class Employee {
 		return this.name;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + "]";
+//	@Override
+//	public String toString() {
+//		return "Employee [id=" + id + ", name=" + name + "]";
+//	}
+//	
+	public String toString()
+	{
+		
 	}
-	
-	
 }
 
 
