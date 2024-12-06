@@ -9,7 +9,7 @@ public class Example3 {
 	
 	public static void throwExceprion1()
 	{
-		
+		throw new ArithmeticException();
 	}
 	
 	public static void main(String[] args) {
