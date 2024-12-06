@@ -10,7 +10,10 @@ public class Employee {
 		
 	}
 	
-	
+	Employee()
+	{
+		
+	}
 	
 }
 
