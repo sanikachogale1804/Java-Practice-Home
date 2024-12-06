@@ -12,8 +12,8 @@ public class Example3 {
 		System.out.println("Hello");
 		try {
 			throwException();
-		}catch (Exception e) {
-			// TODO: handle exception
+		}catch (NullPointerException e) {
+		System.out.println("Exception handled");
 		}
 		
 	}
