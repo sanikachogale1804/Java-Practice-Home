@@ -16,7 +16,10 @@ public class Employee {
 		this.name=name;
 	}
 	
-	
+	public void setId()
+	{
+		
+	}
 	
 }
 
