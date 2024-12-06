@@ -6,6 +6,7 @@ public class ENCP2 {
 		
 		Employee e1=new Employee();
 		e1.setId(101);
+		System.out.println(e1.getId());
 		
 	}
 
