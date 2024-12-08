@@ -12,7 +12,7 @@ public class ForLoopex3 {
 		
 		for(int i=1;i<=num;i++)
 		{
-			
+            
 		}
 		
 	}
