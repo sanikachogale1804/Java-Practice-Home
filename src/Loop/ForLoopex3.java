@@ -13,7 +13,7 @@ public class ForLoopex3 {
 		
 		for(int i=1;i<=num;i++)
 		{
-            System.out.println();
+            System.out.println(c);
 		}
 		
 	}
