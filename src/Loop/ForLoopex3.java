@@ -10,7 +10,7 @@ public class ForLoopex3 {
 		System.out.println("Enter fibonacci series:");
 		int num = sc.nextInt();
 		
-		
+		int a=0;int b=1;int c=0;;
 		
 	}
 	
