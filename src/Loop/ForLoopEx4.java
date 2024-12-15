@@ -17,9 +17,9 @@ public class ForLoopEx4 {
 			rev=rev*10+rem;
 			num=num/10;
 		}
-		if()
+		if(temp==rev)
 		{
-			
+			System.out.println(temp+"palindrom ");
 		}
 		
 	}
