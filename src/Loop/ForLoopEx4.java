@@ -11,7 +11,7 @@ public class ForLoopEx4 {
 		int num = sc.nextInt();
 		int rev=0,rem,temp;
 		temp=num;
-		while()
+		while(num!=0)
 		{
 			
 		}
