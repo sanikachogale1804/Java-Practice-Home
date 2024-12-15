@@ -11,6 +11,11 @@ public class ForLoopex3 {
 		int num = sc.nextInt();
 		
 		int a=0;int b=1;int c=0;;
+		for()
+		{
+			
+		}
+		
 		
 	}
 	
