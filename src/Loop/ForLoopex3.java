@@ -8,7 +8,7 @@ public class ForLoopex3 {
 	
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter fibonacci series:");
-		sc.nextInt();
+		int num = sc.nextInt();
 		
 	}
 	
