@@ -15,6 +15,7 @@ public class ForLoopex3 {
 		{
 			System.out.println(c);
 			a=b;
+			b=c;
 		}
 		
 		
