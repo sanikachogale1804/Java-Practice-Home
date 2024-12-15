@@ -17,6 +17,10 @@ public class ForLoopEx4 {
 			rev=rev*10+rem;
 			num=num/10;
 		}
+		if()
+		{
+			
+		}
 		
 	}
 
