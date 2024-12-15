@@ -21,7 +21,10 @@ public class ForLoopEx4 {
 		{
 			System.out.println(temp+"palindrom ");
 		}
-		
+		else
+		{
+			System.out.println(temp+"Not palindrom");
+		}
 	}
 
 }
