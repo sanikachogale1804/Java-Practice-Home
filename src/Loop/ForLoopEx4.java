@@ -18,13 +18,10 @@ public class ForLoopEx4 {
 			num=num/10;
 		}
 		if(temp==rev)
-		{
 			System.out.println(temp+"palindrom ");
-		}
 		else
-		{
 			System.out.println(temp+"Not palindrom");
-		}
+		
 	}
 
 }
