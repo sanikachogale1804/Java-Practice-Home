@@ -8,7 +8,7 @@ public class ForLoopEx4 {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter digits");
-		sc.nextInt();
+		int num = sc.nextInt();
 		
 	}
 
