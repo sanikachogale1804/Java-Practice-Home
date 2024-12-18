@@ -8,6 +8,7 @@ public class ForLoopEx4 {
 	
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter fibonacci series:");
+		int a=0,b=1,c=0;
 		
 		
 	}
