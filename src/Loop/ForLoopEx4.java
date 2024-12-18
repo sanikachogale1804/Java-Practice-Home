@@ -8,12 +8,13 @@ public class ForLoopEx4 {
 	
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter numbers");
-		int n = sc.nextInt();
+		int num = sc.nextInt();
 		int count=0;
 		for(int i=2;i<=num;i++)
 		{
 			if(i%2==0)
 			{
+				count++;
 				
 			}
 		}
