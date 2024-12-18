@@ -19,7 +19,9 @@ public class ForLoopEx4 {
 			}
 		}
 		if(count==0)
-		
+		    System.out.println("prime numbers");
+		else
+			
 	}
 
 }
