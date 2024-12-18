@@ -18,6 +18,7 @@ public class ForLoopEx4 {
 				break;
 			}
 		}
+		if(count==0)
 		
 	}
 
