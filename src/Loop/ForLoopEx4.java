@@ -14,6 +14,7 @@ public class ForLoopEx4 {
 		{
 			System.out.println(c);
 			a=b;
+			b=c;
 		}
 		
 	}
