@@ -10,9 +10,9 @@ public class ForLoopEx4 {
 		System.out.println("Enter numbers");
 		int num = sc.nextInt();
 		int count=0;
-		for(int i=2;i<=num;i++)
+		for(int i=2;i<num;i++)
 		{
-			if(i%2==0)
+			if(num%i==0)
 			{
 				count++;
 				break;
@@ -21,6 +21,7 @@ public class ForLoopEx4 {
 		if(count==0)
 		    System.out.println("prime numbers");
 		else
+			System.out.println("not prime number");
 			
 	}
 
