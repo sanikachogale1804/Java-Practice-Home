@@ -7,7 +7,11 @@ public class PracticeExample1 {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Principal amount: ");
+		double P = sc.nextDouble();
 		System.out.println("Enter rate of Interest");
+		double R = sc.nextDouble();
+		System.out.println("Time");
+		double T = sc.nextDouble();
 		
 		
 	}
