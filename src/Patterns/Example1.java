@@ -13,10 +13,7 @@ public class Example1 {
 				
 			}
 			System.out.println();
-		}
-		
-		
-		
+		}	
 	}
 
 }
