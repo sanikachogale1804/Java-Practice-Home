@@ -6,16 +6,11 @@ public class PracticeExample3 {
 	
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		double r = sc.nextDouble();
-		double AreaOfRectangle=3.14*r*r;
+		double celcius = sc.nextDouble();
 		
-		System.out.println("Area of Rectangle"+AreaOfRectangle);
+		double farhreneit=celcius*9/5+32;
+		System.out.println(farhreneit);
 		
-	
-		double p = sc.nextDouble();
-		double perimiterOfCircle=2*3.14*r;
-		
-		System.out.println("Perimiter of circle"+perimiterOfCircle);
 	}
 
 }
