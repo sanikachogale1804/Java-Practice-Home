@@ -9,7 +9,9 @@ public class Example1 {
 		{
 			for(int j=1;j<=i;j++)
 			{
+				System.out.println( );
 				System.out.println("*");
+				
 			}
 			
 		}
