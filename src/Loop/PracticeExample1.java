@@ -14,7 +14,7 @@ public class PracticeExample1 {
 		double T = sc.nextDouble();
 		
 		double simpleIntereset=P*R*T/100;
-		
+		System.out.println(simpleIntereset);
 		
 	}
 
