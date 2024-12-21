@@ -13,6 +13,8 @@ public class PracticeExample1 {
 		System.out.println("Time");
 		double T = sc.nextDouble();
 		
+		double simpleIntereset=P*R*T/100;
+		
 		
 	}
 
