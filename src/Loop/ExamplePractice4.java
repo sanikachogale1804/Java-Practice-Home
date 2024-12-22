@@ -13,8 +13,9 @@ public class ExamplePractice4 {
 		
 		if(num>100 || num<999)
 		{
-			
+			System.out.println("Enter valid three digit number:");
 		}
+		
 		
 	}
 	
