@@ -15,6 +15,8 @@ public class ExamplePractice4 {
 		{
 			System.out.println("Enter a three digit number");	
 		}
+		
+		
 	}
 	
 }
