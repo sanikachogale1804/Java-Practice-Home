@@ -1,16 +1,20 @@
 package Patterns;
 
+import java.util.Scanner;
+
 public class Example2 {
 	
 	public static void main(String[] args) {
 		
+		Scanner
 		int rows=5;
 		for(int i=1;i<rows;i++)
 		{
-			for()
+			for(int j=1;j<=i;j++)
 			{
-				
+				System.out.print("*");
 			}
+			System.out.println();
 		}
 		
 	}
