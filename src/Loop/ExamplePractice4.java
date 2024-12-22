@@ -15,7 +15,11 @@ public class ExamplePractice4 {
 		{
 			System.out.println("Enter valid three digit number:");
 		}
-		
+		else
+		{
+			int originalNumber=num;
+			
+		}
 		
 	}
 	
