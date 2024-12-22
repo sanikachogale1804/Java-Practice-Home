@@ -12,9 +12,7 @@ public class ExamplePractice4 {
 		int num = sc.nextInt();
 		
 		if(num>=100 || num<=999)
-		{
 			System.out.println("Enter a three digit number");	
-		}
 		
 		int originalNumber=num;
 		int sum=0;
@@ -32,7 +30,7 @@ public class ExamplePractice4 {
 		}
 		else
 		{
-		
+		   System.out.println("Not armstrong number");
 		}
 		
 	}
