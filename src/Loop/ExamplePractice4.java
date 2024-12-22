@@ -24,7 +24,11 @@ public class ExamplePractice4 {
 			int digit=num%10;
 			sum+=Math.pow(digit,3);
 			num=num/10;
-			
+		}
+		
+		if(sum==originalNumber)
+		{
+			System.out.println();
 		}
 		
 	}
