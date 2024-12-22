@@ -20,6 +20,11 @@ public class ExamplePractice4 {
 			int originalNumber=num;
 			int sum=0;
 			
+			while(num!=0)  //num>0
+			{
+				int digit=num%10;
+				
+			}
 		}
 		
 	}
