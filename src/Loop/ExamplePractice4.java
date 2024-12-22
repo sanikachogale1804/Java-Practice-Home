@@ -21,6 +21,7 @@ public class ExamplePractice4 {
 		
 		while(num!=0)
 		{
+			int digit=num%10;
 			
 		}
 		
