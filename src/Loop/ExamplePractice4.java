@@ -28,8 +28,9 @@ public class ExamplePractice4 {
 		
 		if(sum==originalNumber)
 		{
-			System.out.println();
+			System.out.println("Armstrong number");
 		}
+		
 		
 	}
 	
