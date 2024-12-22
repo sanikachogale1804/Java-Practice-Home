@@ -10,6 +10,11 @@ public class ExamplePractice4 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter three digit number:");
 		int num = sc.nextInt();
+		
+		if(num>=100 || num<=999)
+		{
+			
+		}
 	}
 	
 }
