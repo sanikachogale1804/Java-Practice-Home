@@ -29,7 +29,7 @@ public class ExamplePractice4 {
 			
 			if(sum==originalNumber)
 			{
-				
+				System.out.println("Armstrong number");
 			}
 		}
 		
