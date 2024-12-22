@@ -13,29 +13,29 @@ public class ExamplePractice4 {
 		
 		if(num>100 || num<999)
 		{
-			System.out.println("Enter a three digit number");
-		    return;
-		}
-		
-		int originalNumber=num;
-		int sum=0;
-		
-		while(num!=0)
-		{
-			int digit=num%10;
-			sum+=Math.pow(digit,3);
-			num=num/10;
-		}
-		
-		if(sum==originalNumber)
-		{
-			System.out.println("Armstrong number");
+			System.out.println("Enter a valid three digit number");
 		}
 		else
 		{
-		   System.out.println("Not armstrong number");
-		}
-		
+			int originalNumber=num;
+			int sum=0;
+			
+			while(num!=0)
+			{
+				int digit=num%10;
+				sum+=Math.pow(digit,3);
+				num=num/10;
+			}
+			
+			if(sum==originalNumber)
+			{
+				System.out.println("Armstrong number");
+			}
+			else
+			{
+			   System.out.println("Not armstrong number");
+			}
+		}	
 	}
 	
 }
