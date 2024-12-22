@@ -30,7 +30,10 @@ public class ExamplePractice4 {
 		{
 			System.out.println("Armstrong number");
 		}
+		else
+		{
 		
+		}
 		
 	}
 	
