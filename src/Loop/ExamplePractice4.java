@@ -18,6 +18,7 @@ public class ExamplePractice4 {
 		else
 		{
 			int originalNumber=num;
+			int sum=0;
 			
 		}
 		
