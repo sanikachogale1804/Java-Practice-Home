@@ -31,6 +31,10 @@ public class ExamplePractice4 {
 			{
 				System.out.println("Armstrong number");
 			}
+			else
+			{
+				System.out.println("not armstrong number");
+			}
 		}
 		
 	}
