@@ -27,7 +27,7 @@ public class ExamplePractice4 {
 				num=num/10;
 			}
 			
-			if()
+			if(sum==originalNumber)
 			{
 				
 			}
