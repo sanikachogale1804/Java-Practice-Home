@@ -22,6 +22,8 @@ public class ExamplePractice4 {
 		while(num!=0)
 		{
 			int digit=num%10;
+			sum+=Math.pow(digit,3);
+			num=num/10;
 			
 		}
 		
