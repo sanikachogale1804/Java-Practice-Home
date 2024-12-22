@@ -11,7 +11,7 @@ public class ExamplePractice4 {
 		System.out.println("Enter three digit number:");
 		int num = sc.nextInt();
 		
-		if(num>100 || num<999)
+		if(num<100 || num>999)
 		{
 			System.out.println("Enter a valid three digit number");
 		}
