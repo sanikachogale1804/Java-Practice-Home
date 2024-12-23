@@ -8,7 +8,7 @@ public class Example2 {
 	public static void main(String[] args) {
 		
 		int rows=6;
-		for()
+		for(int i=rows;i>=1;i--)
 		{
 			
 		}
