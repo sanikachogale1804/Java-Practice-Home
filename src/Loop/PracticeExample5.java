@@ -8,6 +8,12 @@ public class PracticeExample5 {
 		Scanner sc=new Scanner(System.in);
 		int n = sc.nextInt();
 		
+		if(n<=0)
+		{
+			System.out.println("Not perfectt");
+		}
+		
+		
 	}
 	
 }
