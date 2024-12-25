@@ -27,9 +27,12 @@ public class PracticeExample7 {
 			return false;
 		}
 		
-		for()
+		for(int i=2;i<=Math.sqrt(n);i++)
 		{
-			
+			if()
+			{
+				
+			}
 		}
 		
 		return false;
