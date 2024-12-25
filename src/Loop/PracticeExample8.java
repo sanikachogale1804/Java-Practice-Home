@@ -17,8 +17,9 @@ public class PracticeExample8 {
 		{
 			System.out.println("not prime");
 		}
+	}
 		
-		public static boolean isPrime(n)
+		public static boolean isPrime(int n)
 		{
 			if(n<=1)
 			{
@@ -33,8 +34,7 @@ public class PracticeExample8 {
 			}
 			return true;
 		}
-		
-		
 	}
+		
+	
 
-}
