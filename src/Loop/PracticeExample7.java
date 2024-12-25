@@ -18,6 +18,16 @@ public class PracticeExample7 {
 			System.out.println("not prime");
 		}
 		
+		
+		public static boolean isPrime(int num)
+		{
+			if(num<=1)
+			{
+				return false;
+			}
+			
+		}
+		
 	}
 	
 	
