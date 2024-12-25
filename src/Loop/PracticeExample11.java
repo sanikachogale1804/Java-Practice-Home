@@ -33,9 +33,7 @@ public class PracticeExample11 {
 				System.out.println("not armstrong");
 			}
 		}
-		
-		
-		
+			
 	}
 	
 }
