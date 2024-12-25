@@ -11,25 +11,11 @@ public class PracticeExample7 {
 		
 		if(isPrime(n))
 		{
-			System.out.println("Prime");
+			System.out.println("prime");
 		}
-		else 
+		else
 		{
 			System.out.println("not prime");
 		}
-		
-		
-		public static boolean isPrime(int num)
-		{
-			if(num<=1)
-			{
-				return false;
-			}
-			
 		}
-		
-	}
-	
-	
-
 }
