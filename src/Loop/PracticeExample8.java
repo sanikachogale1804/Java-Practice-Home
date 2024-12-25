@@ -9,6 +9,15 @@ public class PracticeExample8 {
 		Scanner sc=new Scanner(System.in);
 		int n = sc.nextInt();
 		
+		if(isPrime(n))
+		{
+			System.out.println("prime");
+		}
+		else
+		{
+			System.out.println("not prime");
+		}
+		
 		
 		
 	}
