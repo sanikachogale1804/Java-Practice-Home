@@ -9,14 +9,14 @@ public class PracticeExample8 {
 		Scanner sc=new Scanner(System.in);
 		int n = sc.nextInt();
 		
-		if(isPrime(n))
+		for(int i=2;i<=n;i++)
 		{
-			System.out.println("prime");
+			if(isPrime(i))
+			{
+				System.out.println(i);
+			}
 		}
-		else
-		{
-			System.out.println("not prime");
-		}
+		
 	}
 		
 		public static boolean isPrime(int n)
