@@ -14,7 +14,13 @@ public class PracticeExample11 {
 		}
 		else
 		{
-			int originalNumber==num;
+			int originalNumber=num;
+			int sum=0;
+			
+			while(num!=0)
+			{
+				int digit=
+			}
 			
 		}
 		
