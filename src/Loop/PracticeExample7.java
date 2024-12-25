@@ -29,7 +29,7 @@ public class PracticeExample7 {
 		
 		for(int i=2;i<=Math.sqrt(n);i++)
 		{
-			if(n%2==0)
+			if(n%i==0)
 			{
 				return false;
 			}
