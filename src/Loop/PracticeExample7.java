@@ -17,5 +17,21 @@ public class PracticeExample7 {
 		{
 			System.out.println("not prime");
 		}
+		
+		
 		}
+
+	private static boolean isPrime(int n) {
+		if(n<=1)
+		{
+			return false;
+		}
+		
+		for()
+		{
+			
+		}
+		
+		return false;
+	}
 }
