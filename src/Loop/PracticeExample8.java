@@ -24,7 +24,7 @@ public class PracticeExample8 {
 			{
 				return false;
 			}
-			for()
+			for(int i=2;i<=Math.sqrt(n);i++)
 			{
 				
 			}
