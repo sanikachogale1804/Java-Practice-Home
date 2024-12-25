@@ -8,20 +8,30 @@ public class PracticeExample11 {
 		
 		Scanner sc=new Scanner(System.in);
 		int num = sc.nextInt();
-		if(num<=100 && num>=999)
+		if(num<100 && num>999)
 		{
 			System.out.println("invalid number");
 		}
 		else
 		{
 			int originalNumber=num;
-			int sum=0;
+			double sum=0;
 			
-			while(num!=0)
+			while(num>0)
 			{
-				int digit=
+				int digit=num%10;
+				sum+=Math.pow(digit, 3);
+				num=num/10; 
 			}
 			
+			if(sum==originalNumber)
+			{
+				System.out.println("armstrong");
+			}
+			else
+			{
+				System.out.println("not armstrong");
+			}
 		}
 		
 		
