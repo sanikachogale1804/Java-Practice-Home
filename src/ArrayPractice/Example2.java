@@ -10,10 +10,10 @@ public class Example2 {
 		{
 			if(num%2==1)
 			{
-				
+				sum+=num;
 			}
 		}
-		
+		System.out.println(sum);
 	}
 
 }
