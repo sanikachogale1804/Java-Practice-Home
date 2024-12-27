@@ -7,7 +7,8 @@ public static void main(String[] args) {
 	
 	Scanner sc=new Scanner(System.in);
 	int n = sc.nextInt();
-	int a=0,b=1,c=0;
+	int a=0;int b=1;int c=0;
+	
 	
 	for(int i=0;i<=n;i++)
 	{
@@ -15,8 +16,7 @@ public static void main(String[] args) {
 		System.out.println(c);
 		a=b;
 		b=c;
-		
-		
+			
 	}
 	
 }
