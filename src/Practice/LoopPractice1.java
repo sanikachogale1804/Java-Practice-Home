@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	int n = sc.nextInt();
 	int a=0;int b=1;int c=0;
 	
-	   System.out.print(a);
+	System.out.print(a);
 	for(int i=0;i<=n;i++)
 	{
 		System.out.print(", " + b);
