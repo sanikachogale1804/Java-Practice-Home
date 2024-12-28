@@ -8,7 +8,7 @@ public class PracticeExample1 {
 		
 		for(int data:arr)
 		{
-			
+			System.out.println(data);
 		}
 		
 	}
