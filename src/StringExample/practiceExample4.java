@@ -8,11 +8,11 @@ public class practiceExample4 {
 		
 		int data[]= {2,6,8,5,2,5,6,8,4};
 		HashSet<Integer> uniqueElements=new HashSet<Integer>();
-		for()
+		for(int num:data)
 		{
-			
+			uniqueElements.add(num);
 		}
-		
+		System.out.println(uniqueElements.size());
 	}
 
 }
