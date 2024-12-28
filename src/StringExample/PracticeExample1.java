@@ -15,10 +15,10 @@ public class PracticeExample1 {
 		{
 			if(arr[i]==search)
 			{
-				
+				index=i;
 			}
 		}
-		
+		System.out.println(index);
 		
 	}
 

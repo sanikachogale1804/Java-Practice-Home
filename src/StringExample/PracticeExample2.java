@@ -7,8 +7,8 @@ public class PracticeExample2 {
 		String arr[]= {"Mango","Banana","Kivi","Pineapple","Apple"};
 		for(int i=arr.length-1;i>=0;i--)
 		{
-			String reversedStr=new StringBuilder(arr[i]).reverse().toString();
-			System.out.println(reversedStr);
+			String reversedstr=new StringBuilder(arr[i]).reverse().toString();
+			System.out.println(reversedstr);
 		}
 	}
 	
