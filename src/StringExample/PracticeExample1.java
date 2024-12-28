@@ -6,9 +6,11 @@ public class PracticeExample1 {
 		
 		int arr[]= {2,4,5,7,2,9,4};
 		
+		
 		for(int data:arr)
 		{
 			System.out.println(data);
+			
 		}
 		
 	}
