@@ -8,7 +8,14 @@ public class LoopPractice2 {
 		Scanner sc=new Scanner(System.in);
 		int n = sc.nextInt();
 		
-		
+		if(n<=100 || n>=999)
+		{
+			System.out.println("Enter valid three digit number");
+		}
+		else
+		{
+			
+		}
 	}
 
 }
