@@ -7,7 +7,8 @@ public class StringExample1 {
 		String str= "I love java programming";
 	   // System.out.println(str);
 	    
-	  System.out.println(str.split(" ")); 
+	 String words[]=str.split(" ");
+	 
 	  
 	}
 	
