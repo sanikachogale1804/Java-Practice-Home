@@ -14,6 +14,9 @@ public class LoopPractice2 {
 		}
 		else
 		{
+			int originalNumber=0;
+			int sum=0;
+			
 			
 		}
 	}
