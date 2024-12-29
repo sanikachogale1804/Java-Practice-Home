@@ -21,7 +21,7 @@ public class LoopPractice2 {
 			{
 				int digit=n%10;
 				sum+=Math.pow(digit, 3);
-				
+				n=n/10;
 			}
 			
 		}
