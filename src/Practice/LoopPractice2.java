@@ -17,6 +17,11 @@ public class LoopPractice2 {
 			int originalNumber=0;
 			int sum=0;
 			
+			while(n>0)
+			{
+				int digit=n%10;
+				
+			}
 			
 		}
 	}
