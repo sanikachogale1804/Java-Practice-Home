@@ -19,5 +19,9 @@ public class FirstProgram {
 		}
 		
 	}
+	public static boolean isPalindrome(number)
+	{
+		int originalNumber=number;
+	}
 
 }
