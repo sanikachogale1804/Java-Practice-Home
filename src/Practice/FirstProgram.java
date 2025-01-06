@@ -23,6 +23,12 @@ public class FirstProgram {
 	{
 		int originalNumber=number;
 		int reversedNumber=0;
+		
+		while(number!=0)
+		{
+			int lastDigit=number%10;
+			
+		}
 	}
 
 }
