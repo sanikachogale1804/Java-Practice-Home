@@ -9,6 +9,14 @@ public class FirstProgram {
 		System.out.println("Enter a number");
 		int number = sc.nextInt();
 		
+		if(isPalindrome(number))
+		{
+			System.out.println("Palindrome");
+		}
+		else
+		{
+			System.out.println("Not palindrome");
+		}
 		
 	}
 
