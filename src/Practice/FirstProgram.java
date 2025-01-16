@@ -6,13 +6,11 @@ public class FirstProgram {
 
 	public static void main(String[] args) {
 
-		int i=100;
-		i++;i++;
-		i++;
-		System.out.println(i);
-		++i;
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		System.out.println("1:monday 2:Tuesday 3:wednesday 4:thursday 5:friday 6:saturday 7:sunday");
+
 		
-		System.out.println(i);
 	}
 	
 }
