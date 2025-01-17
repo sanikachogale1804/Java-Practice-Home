@@ -8,6 +8,8 @@ public class FirstProgram {
 
 		int numbers[]= {1,2,3,4,5};
 		System.out.println(numbers[0]);
+		System.out.println(numbers.length-1);
+		System.out.println("=====================");
 		String names[]= {"sanika","riya","sneha"};
 		System.out.println(names[0]);
 		int numbers1[][]= {{23,12,56},{54,34,67}};
